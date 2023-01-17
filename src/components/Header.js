@@ -22,17 +22,19 @@ function Header() {
 
   return (
     <>
-      <NavbarBrand className='navbarBrand'>
-        <img src={Logo} width='144' className='float-start' />
-        <div className='navbarBrandText'>
-          <h1>Kardia </h1>
-          <h1>Classical School</h1>
+      <div className='navbarBrandDiv'>
+        <NavbarBrand className='navbarBrand' href='/'>
+          <img src={Logo} width='111' className='float-start' />
+          <div className='navbarBrandText'>
+            <h1>Kardia Classical</h1>
+            <h1>School</h1>
+          </div>
+        </NavbarBrand>
+      </div>
 
-        </div>
-      </NavbarBrand>
-      <Navbar dark sticky='top' expand='md'>
+      <Navbar dark sticky='top' expand='lg'>
         <a href='/'>
-          <img width='50' src={Logo} className='me-lg-5 d-md-none' />
+          <img width='50' src={Logo} className='me-lg-5 d-lg-none' />
         </a>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
@@ -44,7 +46,7 @@ function Header() {
               <DropdownMenu end>
                 <DropdownItem>
                   <NavItem>
-                    <NavLink to='/'>
+                    <NavLink href='/mission'>
                       About Our School
                     </NavLink>
                   </NavItem>
@@ -53,6 +55,13 @@ function Header() {
                   <NavItem>
                     <NavLink to='/'>
                       Faculty, Staff and School Board
+                    </NavLink>
+                  </NavItem>
+                </DropdownItem>
+                <DropdownItem>
+                  <NavItem>
+                    <NavLink href='/classical-education'>
+                      What is Classical Education?
                     </NavLink>
                   </NavItem>
                 </DropdownItem>
@@ -71,7 +80,7 @@ function Header() {
               <DropdownToggle nav caret>
                 Admissions
               </DropdownToggle>
-              <DropdownMenu right>
+              <DropdownMenu end>
                 <DropdownItem>
                   <NavItem>
                     <NavLink to='/'>
@@ -180,7 +189,7 @@ function Header() {
               </NavLink>
             </NavItem>
             <a href='/'>
-              <img width='50' src={Logo} className='ms-md-5 d-none d-md-inline' />
+              <img width='50' src={Logo} className='ms-md-5 d-none d-lg-inline' />
             </a>
 
           </Nav>

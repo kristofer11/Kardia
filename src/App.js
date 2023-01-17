@@ -2,13 +2,20 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Home from './components/Home';
+import Home from './pages/Home';
+import Mission from './pages/Mission';
+import WhatIsClassical from './pages/WhatIsClassical';
+import { Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Home />
+      <Routes>
+        <Route path='/' element={<Home />} />   
+        <Route path='/mission' element={<Mission />} />   
+        <Route path='/classical-education' element={<WhatIsClassical />} />     
+      </Routes>
       <Footer />
     </div>
   );

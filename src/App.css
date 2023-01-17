@@ -9,7 +9,7 @@
 }
 
 .navbar {
-  background: rgb(210	228	233);
+  background: rgba(210,	228,	233, .8);
 }
 
 .navbar-collapse {
@@ -19,10 +19,18 @@
 .navbar-brand {
   display: flex;
   align-items: center;
+  background: #152d7d;
+  width:fit-content;
+  padding-right: 5px;
+}
+
+.navbarBrandDiv {
+  width: 100%;
+  background: #152d7d;
 }
 
 .navbarBrandText {
-  color: black;
+  color: rgb(251, 253, 252);
 }
 
 .homeMainImg {
@@ -32,4 +40,14 @@
 .site-footer {
   width: 100%;
   margin-top: auto;
+}
+
+.nav {
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav {
+    flex-direction: column !important;
+  }
 }
