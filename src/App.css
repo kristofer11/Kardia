@@ -33,6 +33,17 @@
   color: rgb(251, 253, 252);
 }
 
+.nav li a {
+  transition: 500ms;
+}
+
+.nav li a:hover {
+  transform: scale(1.1);
+  color: green;
+  cursor: pointer;
+  background: #152d7d;
+}
+
 .homeMainImg {
   max-width: 700px;
 }
