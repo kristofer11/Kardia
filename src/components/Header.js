@@ -11,7 +11,7 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  NavbarText,
+  NavbarText
 } from 'reactstrap';
 import Logo from '../assets/logo.png'
 
@@ -21,15 +21,19 @@ function Header() {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-      <>
-        <NavbarBrand className='navbarBrand'>
-          <img src={Logo} width='144' className='float-start' />
-          <div className='navbarBrandText'>
-            <h1>Kardia </h1>
-            <h1>Classical School</h1>
-          </div>
-        </NavbarBrand>      
-         <Navbar dark sticky='top' expand='md'>
+    <>
+      <NavbarBrand className='navbarBrand'>
+        <img src={Logo} width='144' className='float-start' />
+        <div className='navbarBrandText'>
+          <h1>Kardia </h1>
+          <h1>Classical School</h1>
+
+        </div>
+      </NavbarBrand>
+      <Navbar dark sticky='top' expand='md'>
+        <a href='/'>
+          <img width='50' src={Logo} className='me-lg-5 d-md-none' />
+        </a>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav>
@@ -175,11 +179,15 @@ function Header() {
                 Blog
               </NavLink>
             </NavItem>
+            <a href='/'>
+              <img width='50' src={Logo} className='ms-md-5 d-none d-md-inline' />
+            </a>
+
           </Nav>
         </Collapse>
       </Navbar>
-      </>
-     
+    </>
+
   );
 }
 

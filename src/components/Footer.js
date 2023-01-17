@@ -4,6 +4,7 @@ import IgLogo from '../assets/instagram.svg';
 import FbLogo from '../assets/facebook.svg';
 import YelpLogo from '../assets/yelp.png';
 
+//Need to add a bunch more to the footer: Address, etc, "Proud members of: ACCS, etc"
 const Footer = () => {
     return (
         <footer className='site-footer mt-auto'>
