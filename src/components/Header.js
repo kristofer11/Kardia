@@ -1,5 +1,3 @@
-//All this is copied from the reactstrap site and it's still not working!
-
 import React, { useState } from 'react';
 import {
   Collapse,
@@ -23,23 +21,23 @@ function Header() {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
-      <Navbar dark expand='md'>
+      <>
         <NavbarBrand className='navbarBrand'>
           <img src={Logo} width='144' className='float-start' />
           <div className='navbarBrandText'>
             <h1>Kardia </h1>
             <h1>Classical School</h1>
           </div>
-        </NavbarBrand>
+        </NavbarBrand>      
+         <Navbar dark sticky='top' expand='md'>
         <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen}>
+        <Collapse isOpen={isOpen} navbar>
           <Nav>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
                 About
               </DropdownToggle>
-              <DropdownMenu right>
+              <DropdownMenu end>
                 <DropdownItem>
                   <NavItem>
                     <NavLink to='/'>
@@ -180,7 +178,8 @@ function Header() {
           </Nav>
         </Collapse>
       </Navbar>
-    </div>
+      </>
+     
   );
 }
 
