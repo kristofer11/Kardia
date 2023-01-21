@@ -10,6 +10,7 @@ import {
     from 'reactstrap';
 import cousins from '../assets/cousins.png';
 import aristotle from '../assets/Aristotle-quote-heart-and-mind-with-scenery-2000x1200.jpg'
+import HomeBgImg from '../components/HomeBgImg';
 
 const Home = () => {
     return (
@@ -35,7 +36,7 @@ const Home = () => {
                 <p>                        Classical Christian schools use the children’s God-given strengths at each stage of growth to help them learn; young children enjoy memorizing, singing, and rhymes, so a solid foundation is laid in each subject of study at this age; junior high students are inquisitive, so we develop their ability to reason and discern the truth; high school students want to talk, so we teach them how to present their ideas persuasively. The result is a graduate who knows what they believe and why and can positively impact the community around them.</p>
             </div>
             <img src={jogathon} style={{ width: '100%' }} />
-
+            <HomeBgImg />
         </div>
     )
 }
