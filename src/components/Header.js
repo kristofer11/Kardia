@@ -22,19 +22,19 @@ function Header() {
 
   return (
     <>
-      <div className='navbarBrandDiv'>
+      <div className='navbarBrandDiv d-none d-md-block'>
         <NavbarBrand className='navbarBrand' href='/'>
           <img src={Logo} width='111' className='float-start' />
           <div className='navbarBrandText'>
-            <h1>Kardia Classical</h1>
-            <h1>School</h1>
+            <h1 style={{ fontFamily: 'times' }}>Kardia Classical</h1>
+            <h1 style={{ fontFamily: 'times' }}>School</h1>
           </div>
         </NavbarBrand>
       </div>
 
-      <Navbar dark sticky='top' expand='lg'>
+      <Navbar light sticky='top' expand='md'>
         <a href='/'>
-          <img width='50' src={Logo} className='me-lg-5 d-lg-none' />
+          <img style={{ width: '11vw' }} src={Logo} className='me-lg-5 d-md-none' />
         </a>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
@@ -60,8 +60,15 @@ function Header() {
                 </DropdownItem>
                 <DropdownItem>
                   <NavItem>
-                    <NavLink href='/classical-education'>
+                    <NavLink href='#whatIsCc'>
                       What is Classical Education?
+                    </NavLink>
+                  </NavItem>
+                </DropdownItem>
+                <DropdownItem>
+                  <NavItem>
+                    <NavLink to='/'>
+                      Contact
                     </NavLink>
                   </NavItem>
                 </DropdownItem>
@@ -179,17 +186,11 @@ function Header() {
 
             <NavItem>
               <NavLink to='/'>
-                Contact
-              </NavLink>
-            </NavItem>
-
-            <NavItem>
-              <NavLink to='/'>
                 Blog
               </NavLink>
             </NavItem>
             <a href='/'>
-              <img width='50' src={Logo} className='ms-md-5 d-none d-lg-inline' />
+              <img width='50' src={Logo} className='ms-md-5 d-none d-md-inline' />
             </a>
 
           </Nav>

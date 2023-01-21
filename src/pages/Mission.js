@@ -1,4 +1,5 @@
-import { Card, CardBody, CardTitle, CardText } from "reactstrap"
+import { Card, CardBody, CardTitle, CardText } from "reactstrap";
+import handsUp from '../assets/hands-up.jpeg'
 
 const Mission = () => {
     return (
@@ -11,7 +12,7 @@ const Mission = () => {
                     </CardText>
                 </CardBody>
             </Card>
-            <h1>Add photo here??? Then delete this h1</h1>
+            <img src={handsUp} className='mainImg mt-4'/>
         </div>
     )
 }
