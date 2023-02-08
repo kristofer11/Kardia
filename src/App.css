@@ -5,11 +5,19 @@
 }
 
 .nav-item a {
-  color: black ;
+  color: #5a1d00 ;
+  backdrop-filter: blur(1px);
+  font-weight: bold;
+  font-size: 1.24rem;
 }
 
 .navbar {
-  background-color: #A1A4A380;
+  background-color: #A1A4A350;
+  /* backdrop-filter: blur(5px); */
+}
+
+.navbar img {
+  backdrop-filter: blur(1px);
 }
 
 .navbar-collapse {
@@ -19,14 +27,22 @@
 .navbar-brand {
   display: flex;
   align-items: center;
-  background: #152d7d;
+/* NOT SURE ABOUT THIS BG COLOR, SEE .nav li a:hover color to change back */
+  background-color: #1d005a;
+  /* background: #152d7d; */
   width:fit-content;
   padding-right: 5px;
 }
 
+/* MUST CLEAN
+
+UP THIS
+
+STYLESHEET */
+
 .navbarBrandDiv {
   width: 100%;
-  background: #152d7d;
+  background: #1d005a;
 }
 
 .navbarBrandText {
@@ -54,12 +70,20 @@
 
 .homeOverlayText {
   color: white;
-  font-size: 7rem;
+  font-size: 6rem;
   margin-left: 2rem;
+  padding: .24rem;
+  background: rgba(0, 0, 0, .4);
+  /* background: #152d7d55; */
+  backdrop-filter: blur(1.5px);
+  width: fit-content;
+  box-shadow: 2px 2px 2px 1px black;
 }
 
 .mainImg {
   width: 100%;
+  aspect-ratio: 2.5/1;
+  object-fit: cover;
 }
 
 .card {

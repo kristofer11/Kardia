@@ -53,18 +53,18 @@ function Header() {
                 </DropdownItem>
                 <DropdownItem>
                   <NavItem>
-                    <NavLink to='/'>
+                    <NavLink href='/faculty-staff'>
                       Faculty, Staff and School Board
                     </NavLink>
                   </NavItem>
                 </DropdownItem>
-                <DropdownItem>
+                {/* <DropdownItem>
                   <NavItem>
-                    <NavLink href='#whatIsCc'>
+                    <NavLink to='/'>
                       What is Classical Education?
                     </NavLink>
                   </NavItem>
-                </DropdownItem>
+                </DropdownItem> */}
                 <DropdownItem>
                   <NavItem>
                     <NavLink to='/'>

@@ -1,0 +1,115 @@
+import lacey from './staff-photos/HvattumLacey.jpg';
+import tracyM from './staff-photos/MolinaTracy.jpg';
+import tim from './staff-photos/Tim-Burk-Photo-1421x2048.jpg';
+import lisa from './staff-photos/Lisa.jpeg';
+import leslie from './staff-photos/SchmunkLeslie.jpg';
+import veronica from './staff-photos/HuffinesVeronica.jpg';
+import cameron from './staff-photos/image-1152x1536.png';
+import katie from './staff-photos/LemaireKatie.jpg';
+import ashlea from './staff-photos/HayterAshlea.jpg';
+import kris from './staff-photos/kris1.jpg';
+import adrian from './staff-photos/Adrian-1-1152x1536.jpg';
+import deborah from './staff-photos/Debs-Jacobsen-1366x2048.jpg';
+import tracyW from './staff-photos/tracy.jpg';
+import courtney from './staff-photos/courtney-1217x1536.jpg'
+
+export const STAFF = [
+    {
+        id: 0,
+        name: 'Lacey Hvattum',
+        title: 'Head of School & Teacher',
+        bio: 'Lacey Hvattum is the Head of School, and one of the co-founders of Kardia Classical School. She has lived almost her whole life in Monroe, Washington, and has dedicated her life to her passion for teaching. She attended Northwest University in Kirkland, Washington for her BA, MIT, and professional certification (pro-cert). Her first full-time job was at The Bear Creek School, where she fell in love with Classical Christian Education. That is where the journey began, but it has not stopped since she left TBCS in 2014. She started teaching in 2007 and started classically teaching in 2008. She has many years of experience as a classical educator as well as three years as a Beginning School Director and is passionate about spreading the word about this fantastic methodology and what it has done not only for her children but for her students over the years. Lacey has also attended numerous classical conferences to further her classical training. She has three children, and two of them are currently attending KCS. She also has a toddler who is a future Kardia student. Lacey is a teacher on in-person days and does video lessons for middle school math, Kindergarten Continents (history), 1st through 3rd-grade grammar, and more!',
+        image: lacey
+    },
+    {
+        id: 1,
+        name: 'Tracy Molina',
+        title: 'Teacher',
+        bio: 'Tracy Molina has been teaching since 2002 in a variety of schools and grades, predominantly K-3. She loves teaching children how to read and become better readers. She loves how exciting it is to see how much students can learn in just one year! Tracy is a firm believer in the classical method. She is one of our in-person classroom teachers and runs our STEM/enrichment 1/2 day camps. She teaches video lessons for kindergarten through second-grade phonics, math for grades first and second, and more!',
+        image: tracyM
+    },
+    {
+        id: 2,
+        name: 'Tim Burk',
+        title: 'Teacher',
+        bio: 'Tim Burk is a teacher for our in-person days and a new addition to the staff at Kardia Classical School. He brings a wide variety of life and teaching experiences to our middle school students. Tim taught instrumental music in Seattle Public Schools for 20 years and had many years of teaching as a substitute teacher while pursuing post-graduate education. Tim graduated with a BA in Music Education from Northwest Nazarene University in 1987 and began teaching in public schools. He earned a MA in Church Music from Seattle Pacific University in 1994 and began teaching in Seattle Public Schools in 1993. He has pursued further studies in Library Science, and Counseling, plus credits in computer science. While his teaching has been in public schools, Tim is looking forward to learning how Classical Education enriches the learning experience for students, while bringing a love for seeing students gain confidence in comprehension and expression to the classroom. He is looking forward to the challenges, and the opportunity to include the Christian perspective in all areas of studies!',
+        image: tim
+    },
+    {
+        id: 3,
+        name: 'Lisa Davison',
+        title: 'Teacher',
+        bio: 'She is married to Chad and has 3 children; Ariana (16), Brynn (13), and Eli (11). She also has 2 Akitas, Duffy and Ribbon. She grew up in Eastern Canada which is where she earned her Bachelor of Arts followed by a Bachelor of Education. Chad and Lisa moved to Washington in 1999 and she taught a range of ages from preschool to high school before having their first child. She currently homeschools the girls and most recently taught (children other than her own) Math 3 at Cornerstone Academy. She is excited to work at Kardia for a few hours each week and loves being able to teach at a Christian school. She enjoys reading and walking in her spare time.',
+        image: lisa
+    },
+    {
+        id: 4,
+        name: 'Leslie Schmunk',
+        title: 'Music Teacher',
+        bio: 'Leslie has been homeschooling her two (now teenage) children since preschool, and it has been a privilege to do so. Through parenting her own children, she has been challenged to grow in many areas of her life, spiritually, as well as, acquiring new skills such as crochet, healthy cooking, and teaching the Bible to children. She has been making music almost her entire life, singing her first public solo at age four. As a child, she studied piano and violin and sang in numerous choral groups. Leslie received a Bachelor of Arts degree in Sacred Music in 1987 from Northwest College in Kirkland, WA. She has been teaching private piano and violin lessons since 1980 and has directed several choral and instrumental groups. She is also an active instrumentalist and vocalist on her church\’s worship team. Shortly after the birth of her daughter in 2004, she began researching music education options for her. Through that search, she discovered and began teaching Musikgarten\’s Family Music series and Music Makers series. In more recent years, she has discovered the joy of teaching in the elementary music classroom. Her passion is to instill a love of music and singing in her students. The thing she loves most about teaching music is seeing the light bulb go on in a student, and they get excited because they\’ve "figured it out."',
+        image: leslie
+    },
+    {
+        id: 5,
+        name: 'Veronica Huffines',
+        title: 'Art Teacher',
+        bio: 'She is the product of 2 generations of teachers and art teachers. Veronica grew up talking about education theory and art education theory around the dinner table. In school, she majored in technical theater, emphasizing set and lighting design, before graduating with a Bachelor of Science in Civil Engineering. Since then, she has studied art, focusing on sketches, pencil and ink, and watercolor. She has been actively teaching children since she was 16. Veronica and her husband have always homeschooled their two children. She teaches art as a way of life and a way of looking at the world, and not just a hobby.',
+        image: veronica
+    },
+    {
+        id: 6,
+        name: 'Cameron Kyle',
+        title: 'PE Teacher (Martial Arts Class)',
+        bio: "Cameron Kyle is a Head Instructor at Active Martial Arts in Mill Creek. He knows that as a martial arts instructor with extensive experience training kids, there is nothing better than seeing them grow firsthand. But more important than the martial arts skills they learn… are the personal skills they develop and carry for life. Because martial arts is so much more than just kicking and punching, and getting the next colorful belt. It’s about developing confidence, discipline, character, focus, and respect. With every class we teach, your kids are growing in mind, body, and character. That’s because martial arts provides instant positive feedback. Through learning to focus on the core moves, they develop discipline and respect. They can instantly see and feel a difference, making them destined to build confidence, self-awareness, and self-respect. And of course, it’s a ton of FUN! That’s why he loves teaching martial arts to kids in the community, and why he knows your kids are going to LOVE training.",
+        image: cameron
+    },
+    {
+        id: 7,
+        name: 'Katie Lemaire',
+        title: 'Office Administrator',
+        bio: 'Katie took office admin classes at Edmonds Community College, and has worked at several medical offices doing everything from medical records to manning the front desk. She worked as a Health Unit Coordinator at Providence Hospital in the heart/critical care unit for almost 13 years. Katie took some time off work to raise her two rambunctious boys. They started attending a classical school when her oldest started 1st grade and have been attending a classical school ever since. She started working part-time when both boys were in school as an Office Admin for Cornerstone Academy and now she is here at Kardia! She loves working in a school environment. “The teachers at Kardia are amazing! Watching our kids grow academically and spiritually has been great to see.”',
+        image: katie
+    },
+    {
+        id: 8,
+        name: 'Ashlea Hayter',
+        title: 'Financial Director & Board Treasurer',
+        bio: 'Ashlea has an accounting degree from Seattle Pacific University. Before taking time off to raise her daughters Ashlea worked for the regional CPA firm, Peterson Sullivan (acquired in 2019 by BDO), as a senior accountant for over 8 years. Her primary industries of audit expertise were real estate investments and private schools throughout the Pacific Northwest. Ashlea is also the Coordinator of Antioch MOPS in Kirkland. She has two girls enrolled at Kardia and one future student. Ashlea and her husband Chris feel a Classical education provides the academic excellence and moral framework that will help prepare their children for a meaningful future.',
+        image: ashlea
+    },
+    {
+        id: 9,
+        name: 'Kris Hvattum',
+        title: 'Chairman of the Board & Video Logic Teacher',
+        bio: 'Kris has been teaching since 2016 and has really enjoyed learning more about the classical method. He has two children who currently attend Kardia Classical School. He has four years of experience in classical education and has worked in public and private schools. Kris has a bachelors in Biblical Literature and a Masters in Teaching. He is our video lesson Logic teacher, as well as the Chairman of the Board of Directors.',
+        image: kris
+    },
+    {
+        id: 10,
+        name: 'Adrian Lemaire',
+        title: 'Board Secretary',
+        bio: "Adrian is familiar with small private schools as he attended one from pre-kindergarten through graduation in 1999 from a local Snohomish County private school. After graduation, he obtained his two-year Associate of Arts and Science (AAS) in Criminal Justice from Shoreline Community College. He also recently received his two-year Associate of Technical Arts (ATA) in Network Technology from Edmonds Community College. Over the years he has worked for Crista Ministries, many years in customer service jobs, and finally landed in IT around the time his first son was born. Adrian currently works for the City of Everett. He has two sons attending Kardia Classical School. Adrian feels that Classical education provides the learning environment and curriculum that is missing in many of today\’s schools.",
+        image: adrian
+    },
+    {
+        id: 11,
+        name: 'Deborah Jacobson',
+        title: 'Board Member',
+        bio: 'Deborah is passionate about education, children, and living a life committed to Christ. She currently works for the Foundation for Edmonds School District as their Operations and Communications Manager. She has years of experience in both the non-profit and education sector, having previously worked in a preschool and for various churches and nonprofits. Deborah is an ex-pat from the UK, obtaining her Christian Ministry Certificate with Children\’s ministry internship, and later, her Bachelor of Arts in English Literature and Legal Studies in Canada. Deborah has now settled in the Pacific Northwest with her husband and young daughter.',
+        image: deborah
+    },
+    {
+        id: 12,
+        name: 'Tracy Whitfield',
+        title: 'Co-Founder & Video Lesson Teacher',
+        bio: 'Tracy Whitfield is a co-founder of Kardia Classical School, and has been teaching since 2009, most of those years in classical, Christian education. Having graduated from Hillsdale College, Tracy is passionate about the value of classical education. After teaching in the public school system, Tracy found that she wanted to be able to share Christ with her students and mentor them. After leaving the public school system, Tracy eagerly began teaching classical education. She has taught at Cornerstone Academy, Kardia Classical School, and The Bear Creek School. She is a video lesson teacher for upper elementary grammar, cursive and manuscript handwriting, 3rd through 5th-grade math, and more.',
+        image: tracyW
+    },
+    {
+        id: 13,
+        name: 'Courtney Haggerty',
+        title: 'Video Lesson Teacher',
+        bio: "Courtney Haggerty has been teaching since 2013. She has taught primary and intermediate grades and has been working with children for the last thirteen years. Courtney grew up in Monroe and attended the University of Washington where she received her bachelors degree and teaching certificate. Courtney loves seeing the growth of the young spirit. Some of her passions include spending time with her two children, cooking, and continually learning new things. Courtney and her family are active on the worship team and children\’s program at their church. She loves the opportunity to show God\’s love through singing and being able to disciple students! She has helped out with some math and phonics videos.",
+        image: courtney
+    }
+]
