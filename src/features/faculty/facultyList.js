@@ -1,7 +1,7 @@
 import { Row, Col } from 'reactstrap';
 import STAFF from '../../assets/STAFF';
 
-const facultyList = () => {
+const FacultyList = () => {
     const staff = STAFF;
 
   return (
@@ -21,4 +21,4 @@ const facultyList = () => {
   )
 }
 
-export default facultyList
+export default FacultyList
