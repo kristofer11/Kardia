@@ -8,6 +8,7 @@ const StaffCard = ({ staff }) => {
             <CardImg
                 src={image}
                 alt={name}
+                className='staffCardImg'
             />
             <CardTitle className='staffCardName'>
                 {name}

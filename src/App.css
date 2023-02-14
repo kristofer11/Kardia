@@ -73,11 +73,11 @@ STYLESHEET */
   font-size: 6rem;
   margin-left: 2rem;
   padding: .24rem;
-  background: rgba(0, 0, 0, .4);
+  background: rgba(0, 0, 0, .3);
   /* background: #152d7d55; */
-  backdrop-filter: blur(1.5px);
+  backdrop-filter: blur(.75px);
   width: fit-content;
-  box-shadow: 2px 2px 2px 1px black;
+  /* box-shadow: 2px 2px 2px 1px black; */
 }
 
 .mainImg {
@@ -112,11 +112,17 @@ STYLESHEET */
 }
 
 .staffCard {
-  max-width: 758px;
+  max-width: 555px;
   align-items: center;
   border: 2px solid #5a1d00 !important;
   box-shadow: 2px 2px 2px black;
+  background: lightgrey !important;
+}
 
+.staffCardImg{
+  padding: 1rem;
+  aspect-ratio: 1/1;
+  object-fit: cover;  
 }
 
 .staffCardTitle {
@@ -126,7 +132,7 @@ STYLESHEET */
 
 .staffCardBio {
   text-align: left;
-  --max-lines: 4;
+  --max-lines: 5;
   --line-height: 1.4;
 
   max-height: calc(var(--max-lines) * 1em * var(--line-height));
@@ -138,11 +144,10 @@ STYLESHEET */
 
 .expandBtn {
   appearance: none;
-  border: 1px solid blue;
   padding: .5em;
   border-radius: .25em;
   cursor: pointer;
-  margin-top: 1rem;
+  color: blue;
 }
 
 .expandBtn:hover{
@@ -168,7 +173,7 @@ STYLESHEET */
   width: 100%;
   bottom: 0;
   pointer-events: none;
-  background: linear-gradient(to bottom, transparent, white);
+  background: linear-gradient(to bottom, transparent, lightgrey);
 }
 
 .staffCardName {

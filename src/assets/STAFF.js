@@ -1,15 +1,15 @@
 import lacey from './staff-photos/HvattumLacey.jpg';
 import tracyM from './staff-photos/MolinaTracy.jpg';
-import tim from './staff-photos/Tim-Burk-Photo-1421x2048.jpg';
+import tim from './staff-photos/Tim-Burk-Photo-1421x2048 2.jpg';
 import lisa from './staff-photos/Lisa.jpeg';
 import leslie from './staff-photos/SchmunkLeslie.jpg';
 import veronica from './staff-photos/HuffinesVeronica.jpg';
-import cameron from './staff-photos/image-1152x1536.png';
+import cameron from './staff-photos/image-1152x1536.jpeg';
 import katie from './staff-photos/LemaireKatie.jpg';
 import ashlea from './staff-photos/HayterAshlea.jpg';
 import kris from './staff-photos/kris1.jpg';
 import adrian from './staff-photos/Adrian-1-1152x1536.jpg';
-import deborah from './staff-photos/Debs-Jacobsen-1366x2048.jpg';
+import deborah from './staff-photos/Debs-Jacobsen-1366x2048 2.jpg';
 import tracyW from './staff-photos/tracy.jpg';
 import courtney from './staff-photos/courtney-1217x1536.jpg'
 
