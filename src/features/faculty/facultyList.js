@@ -1,5 +1,6 @@
 import { Row, Col } from 'reactstrap';
 import STAFF from '../../assets/STAFF';
+import StaffCard from './StaffCard';
 
 const FacultyList = () => {
     const staff = STAFF;

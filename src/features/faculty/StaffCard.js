@@ -1,14 +1,23 @@
-import { Card, CardImg, CardTitle } from 'reactstrap';
+import { Card, CardImg, CardSubtitle, CardTitle, CardSubtitle, CardBody } from 'reactstrap';
 
 const StaffCard = (staff) => {
-    const { id, image, name, bio } = staff;
+    const { image, name, bio, title } = staff;
 
     return (
         <>
             <Card>
                 <CardImg
-                    src=
-            />
+                    src={image}
+                />
+                <CardTitle>
+                    {name}
+                </CardTitle>
+                <CardSubtitle>
+                    {title}
+                </CardSubtitle>
+                <CardBody>
+                    {bio}
+                </CardBody>
             </Card>
         </>
     )
