@@ -6,17 +6,19 @@ const StaffList = () => {
     const staff = STAFF;
 
     return (
-        <Row className='justify-content-center text-center'>
+        <Row className='justify-content-around text-center staffRow'>
             {
                 staff.map((staff) => {
                     return (
                         <Col 
                             xs='11'
                             sm='10' 
-                            md='8' 
+                            md='9'
+                            lg='6'
+                            xl='3'
                             key={staff.id}
-                            className='mb-4 staffCardCol'
-                        >
+                            className='staffCardCol'
+                        >``
                             <StaffCard
                                 staff={staff}
                             />
