@@ -112,4 +112,4 @@ export const STAFF = [
         bio: "Courtney Haggerty has been teaching since 2013. She has taught primary and intermediate grades and has been working with children for the last thirteen years. Courtney grew up in Monroe and attended the University of Washington where she received her bachelors degree and teaching certificate. Courtney loves seeing the growth of the young spirit. Some of her passions include spending time with her two children, cooking, and continually learning new things. Courtney and her family are active on the worship team and children\’s program at their church. She loves the opportunity to show God\’s love through singing and being able to disciple students! She has helped out with some math and phonics videos.",
         image: courtney
     }
-]
+];
