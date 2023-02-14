@@ -1,26 +1,28 @@
 import { Card, CardImg, CardSubtitle, CardTitle, CardBody } from 'reactstrap';
 
-const StaffCard = (props) => {
-    // const { image, name, bio, title } = props.staff;
+const StaffCard = ({ staff }) => {
+    const { image, name, bio, title } = staff;
 
     return (
-        <>
-            <Card>
-                <CardImg
-                    src={props.staff.image}
-                />
-                <CardTitle>
-                    {props.staff.name}
-                </CardTitle>
-                <CardSubtitle>
-                    {props.staff.title}
-                </CardSubtitle>
-                <CardBody>
-                    {props.staff.bio}
-                </CardBody>
-            </Card>
-        </>
+        <Card className='staffCard'>
+            <CardImg
+                src={image}
+                alt={name}
+            />
+            <CardTitle className='staffCardName'>
+                {name}
+            </CardTitle>
+            <CardSubtitle className='staffCardTitle'>
+                {title}
+            </CardSubtitle>
+            <CardBody>
+                <p className='staffCardBio'>
+                    {bio}
+                </p>
+                <input type='checkBox' className='expandBtn' />
+            </CardBody>
+        </Card>
     )
 }
 
-export default StaffCard
+export default StaffCard;
