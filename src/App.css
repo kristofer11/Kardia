@@ -81,9 +81,21 @@ STYLESHEET */
 }
 
 .mainImg {
-  width: 100%;
-  aspect-ratio: 2.5/1;
+  /* aspect-ratio: 2.5/1; */
+  height: 25rem;
   object-fit: cover;
+  width: 100vw !important;
+}
+
+.home-intro {
+    font-size: 1.88rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+.home-intro h2 {
+    font-size: 2.5vw;
+    color: red;
 }
 
 .card {
@@ -91,7 +103,7 @@ STYLESHEET */
 }
 
 .card-text {
-    font-size: 3vw;
+    font-size: 3rem;
 }
 
 .card-img {
@@ -202,5 +214,12 @@ STYLESHEET */
   }
   .card-text {
     font-size: 1.75rem;
+  }
+  .home-intro {
+    font-size: 1.5rem;
+  }
+  .home-intro h2 {
+    font-size: 2rem;
+    color: red;
   }
 }

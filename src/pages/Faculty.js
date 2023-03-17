@@ -1,6 +1,4 @@
 import FacultyList from "../features/faculty/StaffList";
-import StaffCard from "../features/faculty/StaffCard";
-import { STAFF } from '../assets/STAFF'
 
 const Faculty = () => {
     return (
