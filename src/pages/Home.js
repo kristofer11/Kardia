@@ -26,7 +26,7 @@ const Home = () => {
                 </CardImgOverlay>
                 <CardImg src={Trees} className='mainImg w-100' alt='Trees' />
             </Card>
-            <div style={{ borderTop: '2px solid black', borderBottom: '2px solid black' }} className='m-4 col-md-9 col-lg-7'>
+            <div style={{ borderTop: '2px solid black', borderBottom: '2px solid black' }} className='m-4 col-md-9 col-lg-7 card'>
                 <h2 className='text-center pt-4'><em>Kardia </em>offers the <strong>best of both worlds</strong></h2>
                 <p>                        Our goal is to partner with parents to make the transition to homeschooling an easier one. With support from our certified teachers, you will receive weekly lesson plans, video lessons for more difficult subjects, in-person classes twice a week, monthly parent check-ins, report cards, and/or a standardized testing opportunity for reporting to the state, and more! We would love the opportunity to partner with you on your new endeavor to provide your child with a Classical Christian Education.</p>
                 <p>                        If you want to see some examples of our videos, <a href='https://www.youtube.com/playlist?list=PL19OI_6BLPETGaEhB5ALzP9l2PIKPlcKz' target='_blank'>click this link</a>. It will take you to our YouTube channel and you will have access to a few of our sample videos.</p>
