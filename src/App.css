@@ -73,7 +73,7 @@ STYLESHEET */
   font-size: 6rem;
   margin-left: 2rem;
   padding: .24rem;
-  background: rgba(0, 0, 0, .3);
+  /* background: rgba(0, 0, 0, .3); */
   /* background: #152d7d55; */
   backdrop-filter: blur(.75px);
   width: fit-content;

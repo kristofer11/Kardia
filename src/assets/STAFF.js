@@ -1,6 +1,5 @@
 import lacey from './staff-photos/HvattumLacey.jpg';
 import tracyM from './staff-photos/MolinaTracy.jpg';
-import tim from './staff-photos/Tim-Burk-Photo-1421x2048 2.jpg';
 import lisa from './staff-photos/Lisa.jpeg';
 import leslie from './staff-photos/SchmunkLeslie.jpg';
 import veronica from './staff-photos/HuffinesVeronica.jpg';
@@ -12,6 +11,7 @@ import adrian from './staff-photos/Adrian-1-1152x1536.jpg';
 import deborah from './staff-photos/Debs-Jacobsen-1366x2048 2.jpg';
 import tracyW from './staff-photos/tracy.jpg';
 import courtney from './staff-photos/courtney-1217x1536.jpg'
+import sara from './staff-photos/Ehli.jpg';
 
 export const STAFF = [
     {
@@ -30,10 +30,10 @@ export const STAFF = [
     },
     {
         id: 2,
-        name: 'Tim Burk',
+        name: 'Sara Ehli',
         title: 'Teacher',
-        bio: 'Tim Burk is a teacher for our in-person days and a new addition to the staff at Kardia Classical School. He brings a wide variety of life and teaching experiences to our middle school students. Tim taught instrumental music in Seattle Public Schools for 20 years and had many years of teaching as a substitute teacher while pursuing post-graduate education. Tim graduated with a BA in Music Education from Northwest Nazarene University in 1987 and began teaching in public schools. He earned a MA in Church Music from Seattle Pacific University in 1994 and began teaching in Seattle Public Schools in 1993. He has pursued further studies in Library Science, and Counseling, plus credits in computer science. While his teaching has been in public schools, Tim is looking forward to learning how Classical Education enriches the learning experience for students, while bringing a love for seeing students gain confidence in comprehension and expression to the classroom. He is looking forward to the challenges, and the opportunity to include the Christian perspective in all areas of studies!',
-        image: tim
+        bio: `Sara Ehli graduated from Seattle Pacific University in 2001 with a Bachelor of Arts in English and Secondary Education. She went on to teach middle school Language Arts and History in the Snoqualmie Valley School District. She has a heart for middle school kids and is excited to work with this age group again. When she’s not researching curriculum, or homeschooling her three kids, she enjoys games, books, homemaking, and all things outdoors. All three of her children attend Kardia!`,
+        image: sara
     },
     {
         id: 3,
@@ -109,7 +109,7 @@ export const STAFF = [
         id: 13,
         name: 'Courtney Haggerty',
         title: 'Video Lesson Teacher',
-        bio: "Courtney Haggerty has been teaching since 2013. She has taught primary and intermediate grades and has been working with children for the last thirteen years. Courtney grew up in Monroe and attended the University of Washington where she received her bachelors degree and teaching certificate. Courtney loves seeing the growth of the young spirit. Some of her passions include spending time with her two children, cooking, and continually learning new things. Courtney and her family are active on the worship team and children\’s program at their church. She loves the opportunity to show God\’s love through singing and being able to disciple students! She has helped out with some math and phonics videos.",
+        bio: 'Courtney Haggerty has been teaching since 2013. She has taught primary and intermediate grades and has been working with children for the last thirteen years. Courtney grew up in Monroe and attended the University of Washington where she received her bachelors degree and teaching certificate. Courtney loves seeing the growth of the young spirit. Some of her passions include spending time with her two children, cooking, and continually learning new things. Courtney and her family are active on the worship team and children\’s program at their church. She loves the opportunity to show God\’s love through singing and being able to disciple students! She has helped out with some math and phonics videos.',
         image: courtney
     }
 ];

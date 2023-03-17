@@ -6,7 +6,7 @@ const StaffList = () => {
     const staff = STAFF;
 
     return (
-        <Row className='justify-content-around text-center staffRow'>
+        <Row className='justify-content-around text-center staffRow' style={{marginBottom: '2rem'}}>
             {
                 staff.map((staff) => {
                     return (
