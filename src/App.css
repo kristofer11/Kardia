@@ -88,7 +88,7 @@ STYLESHEET */
 }
 
 .home-intro {
-    font-size: 1.88rem;
+    font-size: 1.75vw;
     text-align: center;
     margin: 2rem;
 }
@@ -96,6 +96,27 @@ STYLESHEET */
 .home-intro h2 {
     font-size: 2.5vw;
     color: red;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 88vw;
+    max-width: 1000px;
+}
+
+.info-block {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.info-block p {
+    font-size: 1.5vw;
+}
+
+.info-block h3 {
+    font-size: 2vw;
 }
 
 .card {
@@ -197,9 +218,14 @@ STYLESHEET */
   background: linear-gradient(to bottom, transparent, lightgrey);
 }
 
-.staffCardName {
+/* .staffCardName {
   font-size: 2rem;
 }
+
+.contact-form {
+    margin-top: 2rem;
+    width: 88vw;
+} */
 
 @media only screen and (max-width: 768px) {
   .nav {
@@ -216,10 +242,17 @@ STYLESHEET */
     font-size: 1.75rem;
   }
   .home-intro {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   .home-intro h2 {
     font-size: 2rem;
     color: red;
   }
+  .info-block p {
+    font-size: 1.15rem;
+}
+
+.info-block h3 {
+    font-size: 1.75rem;
+}
 }

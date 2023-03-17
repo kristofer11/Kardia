@@ -67,7 +67,7 @@ function Header() {
                 </DropdownItem> */}
                 <DropdownItem>
                   <NavItem>
-                    <NavLink to='/'>
+                    <NavLink href='/contact'>
                       Contact
                     </NavLink>
                   </NavItem>
