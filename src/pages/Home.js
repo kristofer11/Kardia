@@ -6,7 +6,6 @@ import {
 
 }
     from 'reactstrap';
-import cousins from '../assets/cousins.png';
 import aristotle from '../assets/Aristotle-quote-heart-and-mind-with-scenery-2000x1200.jpg'
 import HomeBgImg from '../components/HomeBgImg';
 import Trees from '../assets/posters/janko-ferlic-sfL_QOnmy00-unsplash.jpg'
