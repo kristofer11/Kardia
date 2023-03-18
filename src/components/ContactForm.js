@@ -6,29 +6,21 @@ import { validateContactForm } from '../utils/validateContactForm';
 const ContactForm = () => {
     let clickCount = 0;
     const handleSubmit = (values, { resetForm }) => {
-        axios.post("https://formspree.io/f/xzbqvnkj", values)
-          .then(response => {
-            console.log(response);
-            // handle successful submission
-          })
-          .catch(error => {
-            console.log(error);
-            // handle submission error
-          });
-          console.log(values);
-          resetForm();
-      }
-
-    
-//OLD handleSubmit FORM FROM NUCAMP PROJECT
-    // (values, { resetForm }) => {
-    //     console.log('form values:', values);
-    //     console.log('in JSON format:', JSON.stringify(values));
-    //     resetForm();
-    // }
+        axios.post("https://formspree.io/f/xzbqvnkj?https://kardiaclassical.org/messagesent", values)
+            .then(response => {
+                console.log(response);
+                // handle successful submission
+            })
+            .catch(error => {
+                console.log(error);
+                // handle submission error
+            });
+        console.log(values);
+        resetForm();
+    }
 
     return (
-        <div >
+        <div className='form-container'>
             <Formik
                 initialValues={{
                     firstName: '',
@@ -39,10 +31,11 @@ const ContactForm = () => {
                 }}
                 onSubmit={handleSubmit}
                 validate={validateContactForm}
-                style={{border: '2px solid red', marginTop: '2rem', width: '88vw'}}
             >
-{/* DON'T FORGET TO CHANGE EMAIL TO KARDIA OFFICE EMAIL */}
-                <Form>
+                {/* DON'T FORGET TO CHANGE EMAIL TO KARDIA OFFICE EMAIL */}
+                <Form 
+                    className='form'
+                >
                     <FormGroup row>
                         <Label htmlFor='firstName' md='2'>
                             First Name

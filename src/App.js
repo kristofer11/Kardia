@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Mission from './pages/Mission';
 import Faculty from './pages/Faculty';
 import Contact from './pages/Contact';
+import MessageSent from './pages/MessageSent';
 import WhatIsClassical from './pages/WhatIsClassical';
 import { Routes, Route } from 'react-router-dom';
 
@@ -20,6 +21,7 @@ function App() {
           <Route path='/classical-education' element={<WhatIsClassical />} />
           <Route path='/faculty-staff' element={<Faculty />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/messagesent' element={<MessageSent />} />
       </Routes>
       <Footer />
     </div>
