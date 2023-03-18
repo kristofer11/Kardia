@@ -169,15 +169,8 @@ function Header() {
                 </DropdownItem>
                 <DropdownItem>
                   <NavItem>
-                    <NavLink to='/'>
+                    <NavLink href='/calendar'>
                       Calendar
-                    </NavLink>
-                  </NavItem>
-                </DropdownItem>
-                <DropdownItem>
-                  <NavItem>
-                    <NavLink to='/'>
-                      Events
                     </NavLink>
                   </NavItem>
                 </DropdownItem>
@@ -185,7 +178,7 @@ function Header() {
             </UncontrolledDropdown>
 
             <NavItem>
-              <NavLink to='/'>
+              <NavLink href='/blog'>
                 Blog
               </NavLink>
             </NavItem>

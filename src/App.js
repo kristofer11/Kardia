@@ -19,7 +19,7 @@ import Fundraising from './pages/Fundraising';
 import Donations from './pages/Donations';
 import Sycamore from './pages/Sycamore.js';
 import Uniforms from './pages/Uniforms';
-import Calendar from './pages/calendar';
+import Calendar from './pages/Calendar';
 
 function App() {
   return (

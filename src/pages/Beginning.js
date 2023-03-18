@@ -1,6 +1,7 @@
 import { Card, CardBody, CardTitle, CardText, CardImg, CardImgOverlay } from "reactstrap";
 import Statues from '../assets/posters/giammarco-boscaro-zeH-ljawHtg-unsplash.jpg'
-import handsUp from '../assets/hands-up.jpeg'
+import handsUp from '../assets/hands-up.jpeg';
+import door from '../assets/posters/jan-tinneberg-tVIv23vcuz4-unsplash.jpg'
 
 const Mission = () => {
     return (
@@ -13,7 +14,7 @@ const Mission = () => {
                         <h1 className='homeOverlayText'> Beginning</h1>
                     </div>
                 </CardImgOverlay>
-                <CardImg src={Statues} className='mainImg' alt='Trees' />
+                <CardImg src={door} className='mainImg' alt='Trees' />
             </Card>
             <div className="page-content">
 
