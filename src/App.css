@@ -28,7 +28,7 @@
     display: flex;
     align-items: center;
     /* NOT SURE ABOUT THIS BG COLOR, SEE .nav li a:hover color to change back */
-    background-color: #1d005a;
+    background-color: whitesmoke;
     /* background: #152d7d; */
     width: fit-content;
     padding-right: 5px;
@@ -42,11 +42,11 @@ STYLESHEET */
 
 .navbarBrandDiv {
     width: 100%;
-    background: #1d005a;
+    background: whitesmoke;
 }
 
 .navbarBrandText {
-    color: rgb(251, 253, 252);
+    color: black;
 }
 
 .nav li a {

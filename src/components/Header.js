@@ -13,7 +13,7 @@ import {
   DropdownItem,
   NavbarText
 } from 'reactstrap';
-import Logo from '../assets/logo.png'
+import Logo from '../assets/logo__1_-removebg-preview.png'
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,7 +24,7 @@ function Header() {
     <>
       <div className='navbarBrandDiv d-none d-md-block'>
         <NavbarBrand className='navbarBrand' href='/'>
-          <img src={Logo} width='111' className='float-start' />
+          <img src={Logo} width='222' className='float-start' />
           <div className='navbarBrandText'>
             <h1 style={{ fontFamily: 'times' }}>Kardia Classical</h1>
             <h1 style={{ fontFamily: 'times' }}>School</h1>
