@@ -20,7 +20,7 @@ const Auction = () => {
                 <CardImg src={bridge} className='mainImg' alt='Annual auction logo featuring a bridge' />
             </Card>
             <div className='page-content'>
-                <a href='https://kardiaclassical.org/wp-content/uploads/2023/02/building-bridges-logo-1024x1024.png' className='text-center' target='_blank'>
+                <a href='https://fundraiser.support/kardia2023auction' className='text-center' target='_blank'>
                     <img className='col-8' src={auction} style={{maxWidth: '100%'}} />
                 </a>
                 <p className='mt-2' style={{color: '#A1474C', fontSize: '2rem', textAlign: 'center'}}><em>Click on the bridge to visit the auction website!</em></p>
