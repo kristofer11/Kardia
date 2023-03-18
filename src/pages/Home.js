@@ -24,7 +24,7 @@ const Home = () => {
                 <CardImg src={Trees} className='mainImg' alt='Trees' />
             </Card>
             <div className='home-intro'>
-                <h2 className='text-center pt-4'><em>Kardia </em>offers the <strong>best of both worlds</strong></h2>
+                <h2 className='text-center pt-3'><em>Kardia </em>offers the <strong>best of both worlds</strong></h2>
                 <p> 
                 Kardia Classical School combines the benefits of homeschooling and private school education. We partner with parents throughout their educational journey. Children get to come in person two days a week and learn from home three days a week, offering greater flexibility and educational quality.
                 </p>

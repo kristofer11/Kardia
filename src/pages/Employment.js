@@ -39,7 +39,7 @@ const Employment = () => {
                 </p>
                 <div id='whatIsClassical' style={{ borderTop: '2px solid black', borderBottom: '2px solid black' }} className='info-block'>
                     <h3 className='text-center pt-4'>Documents</h3>
-
+{/* FIX THE DOWNLOAD LINKS SO THE BUTTONS ARE WRAPPED IN <a></a> TAGS */}
                     <p>
                         <a href={TeacherApp} target='_blank'>Teacher Job Application
                         </a>
@@ -60,16 +60,16 @@ const Employment = () => {
                         <a href={JobDescrip} target='_blank'>Teacher Job Description
                         </a>
 
-                        <button href={JobDescrip} download className='download-button'> (download)
-                        </button>
+                        <a href={JobDescrip} download ><button className='download-button'> (download)
+                        </button></a>
 
                     </p>
                     <p>
                         <a href={Mission} target='_blank'>Mission and Statement of Faith Agreement
                         </a>
 
-                        <button href={Mission} download className='download-button'> (download)
-                        </button>
+                        <a href={Mission} download className='download-button'> <button>(download)</button>
+                        </a>
 
                     </p>
 
