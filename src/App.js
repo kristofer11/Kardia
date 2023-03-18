@@ -3,7 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
-import Mission from './pages/Mission';
+import Beginning from './pages/Beginning';
 import Faculty from './pages/Faculty';
 import Contact from './pages/Contact';
 import Employment from './pages/Employment';
@@ -21,7 +21,7 @@ function App() {
       <Header />
       <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/mission' element={<Mission />} />
+          <Route path='/beginning' element={<Beginning />} />
     {/* 'what is classical' is not being used, that content currently on home page. */}
           <Route path='/classical-education' element={<WhatIsClassical />} />
           <Route path='/faculty-staff' element={<Faculty />} />

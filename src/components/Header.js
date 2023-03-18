@@ -46,8 +46,8 @@ function Header() {
               <DropdownMenu end>
                 <DropdownItem>
                   <NavItem>
-                    <NavLink href='/mission'>
-                      About Our School
+                    <NavLink href='/Beginning'>
+                      Our Beginning
                     </NavLink>
                   </NavItem>
                 </DropdownItem>

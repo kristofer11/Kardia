@@ -3,6 +3,12 @@ import { Formik, Field, Form, ErrorMessage } from 'formik';
 import axios from 'axios';
 import { validateContactForm } from '../utils/validateContactForm';
 
+//Need to incorporate CAPTCHA. Already installed Google reCAPTCHA library. 
+
+// To get started, you'll need to obtain a site key and secret key from the Google reCAPTCHA admin console. Once you have these keys, you can install the library using npm or yarn, like so:
+
+//See commented code below to modify in order to incorporate...
+
 const ContactForm = () => {
     let clickCount = 0;
     const handleSubmit = (values, { resetForm }) => {
@@ -127,3 +133,38 @@ const ContactForm = () => {
 }
 
 export default ContactForm;
+
+
+//***** MODIFY THIS CODE TO SET UP CAPTCHA:
+
+// import React, { useState } from 'react';
+// import ReCAPTCHA from 'react-google-recaptcha';
+
+// const MyForm = () => {
+//   const [isVerified, setIsVerified] = useState(false);
+
+//   const onVerify = () => {
+//     setIsVerified(true);
+//   };
+
+//   const onSubmit = (e) => {
+//     e.preventDefault();
+//     if (isVerified) {
+//       // submit the form
+//     } else {
+//       // show an error message
+//     }
+//   };
+
+//   return (
+//     <form onSubmit={onSubmit}>
+//       <input type="text" name="name" placeholder="Name" />
+//       <input type="email" name="email" placeholder="Email" />
+//       <ReCAPTCHA
+//         sitekey="your_site_key"
+//         onChange={onVerify}
+//       />
+//       <button type="submit">Submit</button>
+//     </form>
+//   );
+// };
