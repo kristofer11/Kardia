@@ -14,6 +14,12 @@ import Programs from './pages/Programs';
 import WhatIsPP from './pages/WhatIsPP';
 import Enrollment from './pages/Enrollment';
 import Tuition from './pages/Tuition';
+import Auction from './pages/Auction';
+import Fundraising from './pages/Fundraising';
+import Donations from './pages/Donations';
+import Sycamore from './pages/Sycamore.js';
+import Uniforms from './pages/Uniforms';
+import Calendar from './pages/calendar';
 
 function App() {
   return (
@@ -32,6 +38,12 @@ function App() {
           <Route path='/enrollment' element={<Enrollment />} />
           <Route path='/tuition' element={<Tuition />} />
           <Route path='/messagesent' element={<MessageSent />} />
+          <Route path='/auction' element={<Auction />} />          
+          <Route path='/fundraising' element={<Fundraising />} />
+          <Route path='/donations' element={<Donations />} />
+          <Route path='/sycamore' element={<Sycamore />} />
+          <Route path='/uniforms' element={<Uniforms />} />
+          <Route path='/calendar' element={<Calendar />} />
       </Routes>
       <Footer />
     </div>

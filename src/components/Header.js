@@ -126,21 +126,21 @@ function Header() {
               <DropdownMenu right>
                 <DropdownItem>
                   <NavItem>
-                    <NavLink to='/'>
-                      Fundraising
+                    <NavLink href='/auction'>
+                      Annual Auction
                     </NavLink>
                   </NavItem>
                 </DropdownItem>
                 <DropdownItem>
                   <NavItem>
-                    <NavLink to='/'>
-                      Jog-a-thon
+                    <NavLink href='/fundraising'>
+                      All Fundraising Opportunities
                     </NavLink>
                   </NavItem>
                 </DropdownItem>
                 <DropdownItem>
                   <NavItem>
-                    <NavLink to='/'>
+                    <NavLink href='/donations'>
                       Donations
                     </NavLink>
                   </NavItem>
@@ -155,14 +155,14 @@ function Header() {
               <DropdownMenu right>
                 <DropdownItem>
                   <NavItem>
-                    <NavLink to='/'>
+                    <NavLink href='/sycamore'>
                       Sycamore Login
                     </NavLink>
                   </NavItem>
                 </DropdownItem>
                 <DropdownItem>
                   <NavItem>
-                    <NavLink to='/'>
+                    <NavLink href='/uniforms'>
                       Uniforms
                     </NavLink>
                   </NavItem>

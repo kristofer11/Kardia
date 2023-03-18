@@ -73,6 +73,13 @@ STYLESHEET */
     justify-content: center;
 }
 
+.homeCardImgOverlayDiv h6 {
+    font-size: 4vw;
+    color: white;
+    margin-left: 2rem;
+    padding: .24rem;
+}
+
 .homeOverlayText {
     color: white;
     font-size: 6rem;
@@ -80,7 +87,7 @@ STYLESHEET */
     padding: .24rem;
     /* background: rgba(0, 0, 0, .3); */
     /* background: #152d7d55; */
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(.75px);
     width: fit-content;
 }
 
@@ -242,6 +249,10 @@ form {
     background: linear-gradient(to bottom, transparent, lightgrey);
 }
 
+#what-is-cc-subtitle {
+margin-top: 2rem;
+}
+
 @media only screen and (max-width: 768px) {
     .nav {
         flex-direction: column !important;
@@ -251,6 +262,8 @@ form {
     }
     .page-content {
         width: 100%;
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
 }
 
