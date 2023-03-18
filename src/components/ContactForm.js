@@ -6,7 +6,7 @@ import { validateContactForm } from '../utils/validateContactForm';
 const ContactForm = () => {
     let clickCount = 0;
     const handleSubmit = (values, { resetForm }) => {
-        axios.post("https://formsubmit.co/el/tulibo", values)
+        axios.post("https://formspree.io/f/xzbqvnkj", values)
           .then(response => {
             console.log(response);
             // handle successful submission
