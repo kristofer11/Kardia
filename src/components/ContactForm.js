@@ -1,14 +1,31 @@
 import { Button, Label, Col, FormGroup } from 'reactstrap';
 import { Formik, Field, Form, ErrorMessage } from 'formik';
+import axios from 'axios';
 import { validateContactForm } from '../utils/validateContactForm';
 
 const ContactForm = () => {
     let clickCount = 0;
     const handleSubmit = (values, { resetForm }) => {
-        console.log('form values:', values);
-        console.log('in JSON format:', JSON.stringify(values));
-        resetForm();
-    }
+        axios.post("https://formsubmit.co/el/tulibo", values)
+          .then(response => {
+            console.log(response);
+            // handle successful submission
+          })
+          .catch(error => {
+            console.log(error);
+            // handle submission error
+          });
+          console.log(values);
+          resetForm();
+      }
+
+    
+//OLD handleSubmit FORM FROM NUCAMP PROJECT
+    // (values, { resetForm }) => {
+    //     console.log('form values:', values);
+    //     console.log('in JSON format:', JSON.stringify(values));
+    //     resetForm();
+    // }
 
     return (
         <div >
@@ -25,7 +42,7 @@ const ContactForm = () => {
                 style={{border: '2px solid red', marginTop: '2rem', width: '88vw'}}
             >
 {/* DON'T FORGET TO CHANGE EMAIL TO KARDIA OFFICE EMAIL */}
-                <Form action='https://formsubmit.co/klhvattum@live.com' method='post'>
+                <Form>
                     <FormGroup row>
                         <Label htmlFor='firstName' md='2'>
                             First Name
@@ -89,12 +106,12 @@ const ContactForm = () => {
                     </FormGroup>
 
                     <FormGroup row>
-                        <Label htmlFor='feedback' md='2'>
+                        <Label htmlFor='message' md='2'>
                             Message
                         </Label>
                         <Col md='10'>
                             <Field
-                                name='feedback'
+                                name='message'
                                 as='textarea'
                                 rows='12'
                                 className='form-control'
@@ -106,16 +123,14 @@ const ContactForm = () => {
                         <Col md={{ size: 10, offset: 2 }}>
                             <Button type='submit' color='primary'>
                                 Send
-
                             </Button>
                         </Col>
                     </FormGroup>
                 </Form>
-
             </Formik>
         </div>
 
     )
 }
 
-export default ContactForm
+export default ContactForm;
