@@ -75,7 +75,7 @@ function Header() {
                 <DropdownItem divider />
                 <DropdownItem>
                   <NavItem>
-                    <NavLink to='/'>
+                    <NavLink href='/employment'>
                       Employment
                     </NavLink>
                   </NavItem>
@@ -90,28 +90,28 @@ function Header() {
               <DropdownMenu end>
                 <DropdownItem>
                   <NavItem>
-                    <NavLink to='/'>
+                    <NavLink href='/programs'>
                       Program Options
                     </NavLink>
                   </NavItem>
                 </DropdownItem>
                 <DropdownItem>
                   <NavItem>
-                    <NavLink to='/'>
+                    <NavLink href='/whatispp'>
                       What is a <em>Parent Partnership</em>?
                     </NavLink>
                   </NavItem>
                 </DropdownItem>
                 <DropdownItem>
                   <NavItem>
-                    <NavLink to='/'>
+                    <NavLink href='/enrollment'>
                       Enrollment
                     </NavLink>
                   </NavItem>
                 </DropdownItem>
                 <DropdownItem>
                   <NavItem>
-                    <NavLink to='/'>
+                    <NavLink href='/tuition'>
                       Tuition and Fees
                     </NavLink>
                   </NavItem>

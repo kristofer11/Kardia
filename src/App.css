@@ -103,7 +103,7 @@ STYLESHEET */
     flex-direction: column;
     align-items: center;
     align-self: center;
-    width: 88vw;
+    width: 80%;
     max-width: 100vw;
     margin: 0 auto;
 }
@@ -242,6 +242,9 @@ form {
     }
     .homeOverlayText {
         font-size: 10vw !important;
+    }
+    .page-content {
+        width: 100%;
     }
 }
 

@@ -13,7 +13,7 @@ const StaffList = () => {
                         <Col 
                             xs='11'
                             sm='10' 
-                            md='9'
+                            md='8'
                             lg='6'
                             xl='3'
                             key={staff.id}
