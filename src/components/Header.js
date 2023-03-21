@@ -32,7 +32,7 @@ function Header() {
         </NavbarBrand>
       </div>
 
-      <Navbar light sticky='top' expand='md'>
+      <Navbar light sticky='top' expand='lg'>
         <a href='/'>
           <img style={{ width: '11vw' }} src={Logo} className='me-lg-5 d-md-none' />
         </a>

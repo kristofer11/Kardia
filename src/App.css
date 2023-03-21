@@ -253,6 +253,8 @@ form {
 margin-top: 2rem;
 }
 
+
+/* GET RID OF MARGIN FOR SMALL SCREENS */
 @media only screen and (max-width: 768px) {
     .nav {
         flex-direction: column !important;
@@ -262,8 +264,8 @@ margin-top: 2rem;
     }
     .page-content {
         width: 100%;
-        margin-left: 2rem;
-        margin-right: 2rem;
+        padding-inline: 1rem;
+
     }
 }
 
