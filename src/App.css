@@ -73,6 +73,15 @@ STYLESHEET */
     justify-content: center;
 }
 
+/* TESTING PARALLAX COMPONENT - DELETE THIS LATER OR CHANGE CLASSNAMES! */
+.homeCardImgOverlayDivTest {
+    width: 100vw;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .homeCardImgOverlayDiv h6 {
     font-size: 4vw;
     color: white;
