@@ -1,5 +1,5 @@
 import { Card, CardBody, CardTitle, CardText, CardImg, CardImgOverlay } from "reactstrap";
-import Bridge from '../assets/posters/bridge.png';
+import Bridge from '../assets/posters/bridge.jpeg';
 import sitting from '../assets/sitting.jpg';
 import atHome from '../assets/at-home.jpg';
 import tuesday from '../assets/tuesday.jpg';

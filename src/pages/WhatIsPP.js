@@ -1,4 +1,4 @@
-import Hiking from '../assets/posters/hiking.png';
+import Hiking from '../assets/posters/hiking.jpeg';
 import { Card, CardBody, CardTitle, CardText, CardImg, CardImgOverlay } from "reactstrap";
 import legos from '../assets/legos.jpg';
 import Hero from '../components/Hero';
