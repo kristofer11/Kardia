@@ -1,7 +1,6 @@
 import { Card, CardImgOverlay, CardImg, } from 'reactstrap';
 import ContactForm from '../components/ContactForm';
 import Phone from '../assets/posters/phone.png';
-import Letter from '../assets/posters/letter.jpg';
 import Mailbox from '../assets/posters/mailbox.jpg';
 import Hero from '../components/Hero';
 
