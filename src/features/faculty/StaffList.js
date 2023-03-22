@@ -18,7 +18,7 @@ const StaffList = () => {
                             xl='3'
                             key={staff.id}
                             className='staffCardCol'
-                        >``
+                        >
                             <StaffCard
                                 staff={staff}
                             />
