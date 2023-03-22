@@ -1,22 +1,25 @@
 import { Card, CardBody, CardTitle, CardText, CardImg, CardImgOverlay } from "reactstrap";
-import Bridge from '../assets/posters/tim-swaan-eOpewngf68w-unsplash.jpg';
+import Bridge from '../assets/posters/bridge.png';
 import sitting from '../assets/sitting.jpg';
 import atHome from '../assets/at-home.jpg';
 import tuesday from '../assets/tuesday.jpg';
-import alacarte from '../assets/A-la-carte-image.png'
+import alacarte from '../assets/A-la-carte-image.png';
+import Hero from '../components/Hero';
 
 const Programs = () => {
     return (
-        <div>
-            <Card className='mainHomeImgCard'>
-                <CardImgOverlay className='m-sm-4  cardImgOverlay'>
-                    <div className='homeCardImgOverlayDiv'>
+        <div className='d-flex flex-column align-items-center'>
+            <Hero
+                img={Bridge}
+                alt='Bridge'
+                strength={250}
+                title={
+                    <>
                         <h1 className='homeOverlayText'> Program</h1>
                         <h1 className='homeOverlayText'> Options</h1>
-                    </div>
-                </CardImgOverlay>
-                <CardImg src={Bridge} className='mainImg' alt='Trees' />
-            </Card>
+                    </>
+                }
+            />
             <div className="page-content">
                 <div id='whatIsClassical' style={{ borderTop: '2px solid black', borderBottom: '2px solid black' }} className='info-block'>
                     <h3 className='text-center pt-4'>Two Full Days In-person</h3>

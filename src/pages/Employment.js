@@ -4,18 +4,21 @@ import TeacherApp from '/Users/klhva/Documents/Repos/kardia/src/assets/downloads
 import SubApp from '/Users/klhva/Documents/Repos/kardia/src/assets/downloads/Job-Application-Substitute.pdf';
 import Mission from '/Users/klhva/Documents/Repos/kardia/src/assets/downloads/Mission-and-statement-of-faith-agreement.pdf';
 import JobDescrip from '/Users/klhva/Documents/Repos/kardia/src/assets/downloads/Teacher-Job-Description.pdf';
+import Hero from '../components/Hero';
 
 const Employment = () => {
     return (
         <div>
-            <Card className='mainHomeImgCard'>
-                <CardImgOverlay className='m-sm-4  cardImgOverlay'>
-                    <div className='homeCardImgOverlayDiv'>
+            <Hero
+                img={Chalkboard}
+                alt='Blackboard'
+                strength={250}
+                title={
+                    <>
                         <h1 className='homeOverlayText'> Employment</h1>
-                    </div>
-                </CardImgOverlay>
-                <CardImg src={Chalkboard} className='mainImg' alt='Trees' />
-            </Card>
+                    </>
+                }
+            />
             <div className="page-content">
                 <div id='whatIsClassical' style={{ borderTop: '2px solid black', borderBottom: '2px solid black' }} className='info-block'>
                     <h3 className='text-center pt-4'>Looking for part-time teaching experience at a Classical Christian School?</h3>
@@ -39,7 +42,7 @@ const Employment = () => {
                 </p>
                 <div id='whatIsClassical' style={{ borderTop: '2px solid black', borderBottom: '2px solid black' }} className='info-block'>
                     <h3 className='text-center pt-4'>Documents</h3>
-{/* FIX THE DOWNLOAD LINKS SO THE BUTTONS ARE WRAPPED IN <a></a> TAGS */}
+                    {/* FIX THE DOWNLOAD LINKS SO THE BUTTONS ARE WRAPPED IN <a></a> TAGS */}
                     <p>
                         <a href={TeacherApp} target='_blank'>Teacher Job Application
                         </a>

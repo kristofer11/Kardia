@@ -1,23 +1,29 @@
 import FacultyList from "../features/faculty/StaffList";
 import { Card, CardImgOverlay, CardImg, } from 'reactstrap';
 import Library from '../assets/posters/natalie-van-dam-onsl9K6Wy4U-unsplash.jpg';
+import Hero from '../components/Hero';
 
 
 const Faculty = () => {
     return (
-        <>
-            <Card className='mainHomeImgCard' style={{marginBottom: '2rem'}}>
-                <CardImgOverlay className='m-sm-4  cardImgOverlay'>
-                    <div className='homeCardImgOverlayDiv'>
+        <div className='d-flex flex-column align-items-center'>
+            <Hero
+                img={Library}
+                alt='Library with vaulted ceiling'
+                strength={250}
+                title={
+                    <>
                         <h1 className='homeOverlayText' > Faculty</h1>
                         <h1 className='homeOverlayText'> Staff</h1>
                         <h1 className='homeOverlayText'> and School Board</h1>
-                    </div>
-                </CardImgOverlay>
-                <CardImg src={Library} className='mainImg' alt='Trees' />
-            </Card>
-            <FacultyList />
-        </>
+                    </>
+                }
+            />
+            <div style={{marginTop: '2rem'}}>
+                <FacultyList />                
+            </div>
+
+        </div>
     )
 }
 

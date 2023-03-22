@@ -1,21 +1,23 @@
-import Hiking from '../assets/posters/alberto-casetta-REKXJ7JhwiI-unsplash.jpg';
+import Hiking from '../assets/posters/hiking.png';
 import { Card, CardBody, CardTitle, CardText, CardImg, CardImgOverlay } from "reactstrap";
 import legos from '../assets/legos.jpg';
+import Hero from '../components/Hero';
 
 
 const WhatIsPP = () => {
     return (
-        <div>
-            <Card className='mainHomeImgCard'>
-                <CardImgOverlay className='m-sm-4  cardImgOverlay'>
-                    <div className='homeCardImgOverlayDiv'>
+        <div className='d-flex flex-column align-items-center'>
+            <Hero
+                img={Hiking}
+                alt='Family hiking'
+                strength={250}
+                title={
+                    <>
                         <h1 className='homeOverlayText'> What is a</h1>
                         <h1 className='homeOverlayText'> Parent Partnership?</h1>
-                    </div>
-                </CardImgOverlay>
-                <CardImg src={Hiking} className='mainImg' alt='Trees' />
-            </Card>
-
+                    </>
+                }
+            />
             {/* *** CONSIDER AN IMG OR ICON TO THE SIDE OF EACH OF THESE ARTICLES. MAYBE ALTERNATE SIDES. */}
 
             <div className='page-content' style={{ marginTop: '2rem' }}>
