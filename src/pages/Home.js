@@ -7,12 +7,25 @@ import {
 } from 'reactstrap';
 import aristotle from '../assets/Aristotle-quote-heart-and-mind-with-scenery-2000x1200.jpg'
 import PosterBgImg from '../components/PosterBgImg';
+import forest from '../assets/posters/home-img-cropped.png';
 import Trees from '../assets/posters/janko-ferlic-sfL_QOnmy00-unsplash.jpg'
 
 const Home = () => {
     return (
         <div className='d-flex flex-column align-items-center'>
-        <PosterBgImg />            
+        <PosterBgImg 
+            img={forest}
+            alt='Library shelves with prominent lightbulbs'
+            strength={200}
+            title={ 
+            <>
+                <h1 className='homeOverlayText'>Classical</h1>
+                <h1 className='homeOverlayText'>Christian</h1>
+                <h1 className='homeOverlayText'>Parent Partnership</h1>            
+            </>
+
+}
+        />            
             <div className='home-intro page-content'>
                 <h2 className='text-center pt-3'><em>Kardia </em>offers the <strong>best of both worlds</strong></h2>
                 <p>
