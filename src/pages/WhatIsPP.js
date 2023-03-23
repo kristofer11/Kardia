@@ -1,4 +1,5 @@
 import Hiking from '../assets/posters/hiking.jpeg';
+import HikingPath from '../assets/posters/hikingpath.jpeg'
 import { Card, CardBody, CardTitle, CardText, CardImg, CardImgOverlay } from "reactstrap";
 import legos from '../assets/legos.jpg';
 import Hero from '../components/Hero';
@@ -8,7 +9,7 @@ const WhatIsPP = () => {
     return (
         <div className='d-flex flex-column align-items-center'>
             <Hero
-                img={Hiking}
+                img={HikingPath}
                 alt='Family hiking'
                 strength={250}
                 title={

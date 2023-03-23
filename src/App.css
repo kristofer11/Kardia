@@ -73,10 +73,9 @@ STYLESHEET */
     justify-content: center;
 } */
 
-/* TESTING PARALLAX COMPONENT - DELETE THIS LATER OR CHANGE CLASSNAMES! */
 .hero {
     width: 100vw;
-    height: 25rem;
+    height: 18rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -84,6 +83,7 @@ STYLESHEET */
 
 .hero-text {
     margin-left: 14vw;
+    backdrop-filter: blur(1.5px);
 }
 
 .homeCardImgOverlayDiv h6 {

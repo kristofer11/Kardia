@@ -1,5 +1,6 @@
 import { Card, CardBody, CardTitle, CardText, CardImg, CardImgOverlay } from "reactstrap";
 import Bridge from '../assets/posters/bridge.jpeg';
+import Books from '../assets/posters/books.jpg'
 import sitting from '../assets/sitting.jpg';
 import atHome from '../assets/at-home.jpg';
 import tuesday from '../assets/tuesday.jpg';
@@ -10,9 +11,9 @@ const Programs = () => {
     return (
         <div className='d-flex flex-column align-items-center'>
             <Hero
-                img={Bridge}
+                img={Books}
                 alt='Bridge'
-                strength={250}
+                strength={444}
                 title={
                     <>
                         <h1 className='homeOverlayText'> Program</h1>

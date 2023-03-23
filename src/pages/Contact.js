@@ -1,6 +1,6 @@
 import { Card, CardImgOverlay, CardImg, } from 'reactstrap';
 import ContactForm from '../components/ContactForm';
-import Mailbox from '../assets/posters/mailbox.jpg';
+import Ladder from '../assets/posters/ladder.jpg'
 import Hero from '../components/Hero';
 
 
@@ -9,9 +9,9 @@ const Contact = () => {
     return (
         <div>
             <Hero
-                img={Mailbox}
+                img={Ladder}
                 alt='Mailbox'
-                strength={200}
+                strength={555}
                 title={
                     <>
                         <h1 className='homeOverlayText'> Contact</h1>
