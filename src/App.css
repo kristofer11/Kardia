@@ -83,7 +83,7 @@ STYLESHEET */
 
 .hero-text {
     margin-left: 14vw;
-    backdrop-filter: blur(1.5px);
+    backdrop-filter: blur(1px);
 }
 
 .homeCardImgOverlayDiv h6 {
