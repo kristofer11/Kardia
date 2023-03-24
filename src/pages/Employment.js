@@ -12,7 +12,7 @@ const Employment = () => {
             <Hero
                 img={Chalkboard}
                 alt='Blackboard'
-                strength={250}
+                strength={333}
                 title={
                     <>
                         <h1 className='homeOverlayText'> Employment</h1>

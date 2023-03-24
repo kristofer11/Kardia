@@ -10,7 +10,7 @@ const Faculty = () => {
             <Hero
                 img={Library}
                 alt='Library with vaulted ceiling'
-                strength={250}
+                strength={333}
                 title={
                     <>
                         <h1 className='homeOverlayText' > Faculty</h1>

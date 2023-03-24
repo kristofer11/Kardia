@@ -12,7 +12,7 @@ const Programs = () => {
             <Hero
                 img={Books}
                 alt='Bridge'
-                strength={444}
+                strength={333}
                 title={
                     <>
                         <h1 className='homeOverlayText'> Program</h1>

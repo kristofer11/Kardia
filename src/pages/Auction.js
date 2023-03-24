@@ -14,7 +14,7 @@ const Auction = () => {
             <Hero
                 img={bridge}
                 alt='Train on bridge'
-                strength={200}
+                strength={333}
                 title={
                     <>
                         <h1 className='homeOverlayText'> Annual Auction</h1>

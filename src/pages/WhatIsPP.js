@@ -11,7 +11,7 @@ const WhatIsPP = () => {
             <Hero
                 img={HikingPath}
                 alt='Family hiking'
-                strength={250}
+                strength={333}
                 title={
                     <>
                         <h1 className='homeOverlayText'> What is a</h1>

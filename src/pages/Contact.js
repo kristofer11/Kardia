@@ -11,7 +11,7 @@ const Contact = () => {
             <Hero
                 img={Ladder}
                 alt='Mailbox'
-                strength={555}
+                strength={333}
                 title={
                     <>
                         <h1 className='homeOverlayText'> Contact</h1>

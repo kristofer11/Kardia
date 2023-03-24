@@ -15,7 +15,7 @@ const Home = () => {
         <Hero 
             img={forest}
             alt='Library shelves with prominent lightbulbs'
-            strength={200}
+            strength={333}
             title={ 
             <>
                 <h1 className='homeOverlayText'>Classical</h1>
