@@ -20,6 +20,12 @@ import Donations from './pages/Donations';
 import Sycamore from './pages/Sycamore.js';
 import Uniforms from './pages/Uniforms';
 import Calendar from './pages/Calendar';
+import July2022 from './pages/blogs/July2022';
+import June2022 from './pages/blogs/June2022';
+import July2021 from './pages/blogs/July2021';
+import June2021 from './pages/blogs/June2021';
+import May2021 from './pages/blogs/May2021';
+import June2022Siblings from './pages/blogs/June2022Siblings';
 
 function App() {
   return (
@@ -44,6 +50,12 @@ function App() {
           <Route path='/sycamore' element={<Sycamore />} />
           <Route path='/uniforms' element={<Uniforms />} />
           <Route path='/calendar' element={<Calendar />} />
+          <Route path='/july2022' element={<July2022 />} />
+          <Route path='/june2022' element={<June2022 />} />
+          <Route path='/july2021' element={<July2021 />} />
+          <Route path='/june2021' element={<June2021 />} />
+          <Route path='/may2021' element={<May2021 />} />
+          <Route path='/june2022siblings' element={<June2022Siblings />} />
       </Routes>
       <Footer />
     </div>

@@ -58,13 +58,6 @@ function Header() {
                     </NavLink>
                   </NavItem>
                 </DropdownItem>
-                {/* <DropdownItem>
-                  <NavItem>
-                    <NavLink to='/'>
-                      What is Classical Education?
-                    </NavLink>
-                  </NavItem>
-                </DropdownItem> */}
                 <DropdownItem>
                   <NavItem>
                     <NavLink href='/contact'>
@@ -177,11 +170,55 @@ function Header() {
               </DropdownMenu>
             </UncontrolledDropdown>
 
-            <NavItem>
-              <NavLink href='/blog'>
+            <UncontrolledDropdown nav inNavbar>
+              <DropdownToggle nav caret>
                 Blog
-              </NavLink>
-            </NavItem>
+              </DropdownToggle>
+              <DropdownMenu right>
+                <DropdownItem>
+                  <NavItem>
+                    <NavLink href='/july2022'>
+                      Martial Arts 
+                    </NavLink>
+                  </NavItem>
+                </DropdownItem>
+                <DropdownItem>
+                  <NavItem>
+                    <NavLink href='/june2022'>
+                      Retaining Learning
+                    </NavLink>
+                  </NavItem>
+                </DropdownItem>
+                <DropdownItem>
+                  <NavItem>
+                    <NavLink href='/june2022siblings'>
+                    Keep Younger Siblings Busy!
+                    </NavLink>
+                  </NavItem>
+                </DropdownItem>
+                <DropdownItem>
+                  <NavItem>
+                    <NavLink href='/july2021'>
+                      Music
+                    </NavLink>
+                  </NavItem>
+                </DropdownItem>
+                <DropdownItem>
+                  <NavItem>
+                    <NavLink href='/june2021'>
+                      "Parent Partnership"
+                    </NavLink>
+                  </NavItem>
+                </DropdownItem>
+                <DropdownItem>
+                  <NavItem>
+                    <NavLink href='/may2021'>
+                    Classical?
+                    </NavLink>
+                  </NavItem>
+                </DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
             <a href='/'>
               <img width='50' src={Logo} className='ms-md-5 d-none d-md-inline' />
             </a>

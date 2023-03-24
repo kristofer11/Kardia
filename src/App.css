@@ -48,12 +48,6 @@
     padding-right: 5px;
 }
 
-/* MUST CLEAN
-
-UP THIS
-
-STYLESHEET */
-
 .navbarBrandDiv {
     width: 100%;
     background: var(--main-bg-color);
@@ -68,7 +62,7 @@ STYLESHEET */
 }
 
 .nav li a:hover {
-    transform: scale(1.1);
+    transform: scale(1.04);
     color: var(--nav-link-hover-color);
     cursor: pointer;
     background: var(--link-hover-bg-color);
@@ -93,6 +87,10 @@ STYLESHEET */
 
 .hero-text h1 {
     margin-block: -1rem;
+}
+
+.mainImg {
+    max-width: 100%;
 }
 
 .homeCardImgOverlayDiv h6 {
@@ -308,6 +306,25 @@ img.footer-logo {
 margin-top: 2rem;
 }
 
+.blog {
+    text-align: left;
+}
+
+.blog-content {
+    max-width: 777px;
+}
+
+figure {
+    text-align: center;
+}
+
+.blog-img {
+    max-width: 100%;
+}
+
+.blog-body-figure {
+    text-align: left;
+}
 
 /* GET RID OF MARGIN FOR SMALL SCREENS */
 @media only screen and (max-width: 768px) {

@@ -9,7 +9,7 @@ const Mission = () => {
             <Hero
                 img={door}
                 alt='Teal door partially open'
-                strength={200}
+                strength={450}
                 title={
                     <>
                         <h1 className='homeOverlayText'> Our </h1>
