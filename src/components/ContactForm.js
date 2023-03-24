@@ -2,6 +2,7 @@ import { Button, Label, Col, FormGroup } from 'reactstrap';
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import axios from 'axios';
 import { validateContactForm } from '../utils/validateContactForm';
+import { useLocation } from 'react-router-dom';
 
 //Need to incorporate CAPTCHA. Already installed Google reCAPTCHA library. 
 
@@ -9,7 +10,8 @@ import { validateContactForm } from '../utils/validateContactForm';
 
 //See commented code below to modify in order to incorporate...
 
-const ContactForm = () => {
+const ContactForm = ({ history }) => {
+    const location = useLocation();
     let clickCount = 0;
     const handleSubmit = (values, { resetForm }) => {
         axios.post("https://formspree.io/f/xzbqvnkj?https://kardiaclassical.org/messagesent", values)
@@ -23,6 +25,7 @@ const ContactForm = () => {
             });
         console.log(values);
         resetForm();
+        window.location.href = `/messagesent`;
     }
 
     return (

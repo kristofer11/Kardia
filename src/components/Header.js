@@ -34,7 +34,7 @@ function Header() {
 
       <Navbar light sticky='top' expand='lg'>
         <a href='/'>
-          <img style={{ width: '11vw' }} src={Logo} className='me-lg-5 d-lg-none' />
+          <img style={{ width: '17vw' }} src={Logo} className='me-lg-5 d-lg-none' />
         </a>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
