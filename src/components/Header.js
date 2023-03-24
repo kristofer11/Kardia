@@ -22,7 +22,7 @@ function Header() {
 
   return (
     <>
-      <div className='navbarBrandDiv d-none d-md-block'>
+      <div className='navbarBrandDiv d-none d-lg-block'>
         <NavbarBrand className='navbarBrand' href='/'>
           <img src={Logo} width='144' className='float-start' />
           <div className='navbarBrandText'>
@@ -32,9 +32,9 @@ function Header() {
         </NavbarBrand>
       </div>
 
-      <Navbar light sticky='top' expand='md'>
+      <Navbar light sticky='top' expand='lg'>
         <a href='/'>
-          <img style={{ width: '11vw' }} src={Logo} className='me-lg-5 d-md-none' />
+          <img style={{ width: '11vw' }} src={Logo} className='me-lg-5 d-lg-none' />
         </a>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
@@ -177,42 +177,42 @@ function Header() {
               <DropdownMenu right>
                 <DropdownItem>
                   <NavItem>
-                    <NavLink href='/july2022'>
+                    <NavLink className='navlink-blog' href='/july2022'>
                       Martial Arts 
                     </NavLink>
                   </NavItem>
                 </DropdownItem>
                 <DropdownItem>
                   <NavItem>
-                    <NavLink href='/june2022'>
+                    <NavLink className='navlink-blog'  href='/june2022'>
                       Retaining Learning
                     </NavLink>
                   </NavItem>
                 </DropdownItem>
                 <DropdownItem>
                   <NavItem>
-                    <NavLink href='/june2022siblings'>
+                    <NavLink className='navlink-blog'  href='/june2022siblings'>
                     Keep Younger Siblings Busy!
                     </NavLink>
                   </NavItem>
                 </DropdownItem>
                 <DropdownItem>
                   <NavItem>
-                    <NavLink href='/july2021'>
+                    <NavLink className='navlink-blog'  href='/july2021'>
                       Music
                     </NavLink>
                   </NavItem>
                 </DropdownItem>
                 <DropdownItem>
                   <NavItem>
-                    <NavLink href='/june2021'>
+                    <NavLink className='navlink-blog'  href='/june2021'>
                       "Parent Partnership"
                     </NavLink>
                   </NavItem>
                 </DropdownItem>
                 <DropdownItem>
                   <NavItem>
-                    <NavLink href='/may2021'>
+                    <NavLink className='navlink-blog'  href='/may2021'>
                     Classical?
                     </NavLink>
                   </NavItem>
