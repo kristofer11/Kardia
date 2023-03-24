@@ -3,8 +3,13 @@
     --main-text-color: #000;
     --main-light-text-color: #fff;
     --alt-bg-color: #A1A4A350;
-    --accent-color: #5a1d00;
+    --nav-link-color: #5a1d00;
+    --link-hover-bg-color: #152d7d;
+    --nav-link-hover-color: #008000;
+    --accent-text-color: #A1474C;
 }
+
+
 
 .App {
     display: flex;
@@ -14,14 +19,14 @@
 }
 
 .nav-item a {
-    color: #5a1d00;
+    color: var(--nav-link-color);
     backdrop-filter: blur(1px);
     font-weight: bold;
     font-size: 1.24rem;
 }
 
 .navbar {
-    background-color: #A1A4A350;
+    background-color: var(--main-bg-color);
     /* backdrop-filter: blur(5px); */
 }
 
@@ -37,7 +42,7 @@
     display: flex;
     align-items: center;
     /* NOT SURE ABOUT THIS BG COLOR, SEE .nav li a:hover color to change back */
-    background-color: whitesmoke;
+    background-color: var(--main-bg-color);
     /* background: #152d7d; */
     width: fit-content;
     padding-right: 5px;
@@ -51,11 +56,11 @@ STYLESHEET */
 
 .navbarBrandDiv {
     width: 100%;
-    background: whitesmoke;
+    background: var(--main-bg-color);
 }
 
 .navbarBrandText {
-    color: black;
+    color: var(--main-text-color);
 }
 
 .nav li a {
@@ -64,9 +69,9 @@ STYLESHEET */
 
 .nav li a:hover {
     transform: scale(1.1);
-    color: green;
+    color: var(--nav-link-hover-color);
     cursor: pointer;
-    background: #152d7d;
+    background: var(--link-hover-bg-color);
 }
 
 .react-parallax {
@@ -86,15 +91,19 @@ STYLESHEET */
     backdrop-filter: blur(1px);
 }
 
+.hero-text h1 {
+    margin-block: -1rem;
+}
+
 .homeCardImgOverlayDiv h6 {
     font-size: 4vw;
-    color: white;
+    color: var(--main-light-text-color);
     margin-left: 12vw;
     padding: .24rem;
 }
 
 .homeOverlayText {
-    color: white;
+    color: var(--main-light-text-color);
     font-size: 6rem;
     backdrop-filter: blur(.75px);
 }
@@ -108,7 +117,7 @@ STYLESHEET */
 
 .home-intro h2 {
     font-size: 2.5vw;
-    color: #A1474C;
+    color: var(--accent-text-color);
 }
 
 
@@ -169,6 +178,48 @@ form {
 .site-footer {
     width: 100%;
     margin-top: auto;
+    background-color: var(--alt-bg-color);
+}
+
+.footer-title {
+    font-size: 1.5rem;
+    color: var(--link-hover-bg-color);
+    text-align: center;
+    font-weight: bold;
+}
+
+.address-div {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.address-block > h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.address-block > p {
+    font-size: 1.1rem;
+}
+
+.footer-social {
+    width: 73px;
+}
+
+.footer-logo-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+img.footer-logo {
+    width: 222px;
+    height: auto;
+    aspect-ratio:inherit ;
+    margin-inline: 1rem;
+    margin-block: .5rem;
 }
 
 .nav {
@@ -185,10 +236,11 @@ form {
     margin: 0 44px;
 }
 
+/* CHANGE BG COLOR AND MAKE SURE IT MATCHES staffCardBio:has*/
 .staffCard {
     max-width: 555px;
     align-items: center;
-    border: 2px solid #5a1d00 !important;
+    border: 2px solid var(--nav-link-color) !important;
     box-shadow: 2px 2px 2px black;
     background: lightgrey !important;
 }
@@ -218,14 +270,16 @@ form {
 
 .expandBtn {
     appearance: none;
-    padding: .5em;
-    border-radius: .25em;
+    padding: .25em;
+    border-radius: .75em;
     cursor: pointer;
-    color: blue;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--accent-text-color);
 }
 
 .expandBtn:hover {
-    background-color: #CCC;
+    transform: scale(1.2);
 }
 
 .expandBtn::before {
