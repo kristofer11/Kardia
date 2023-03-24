@@ -1,13 +1,17 @@
+:root {
+    --main-bg-color: #fff;
+    --main-text-color: #000;
+    --main-light-text-color: #fff;
+    --alt-bg-color: #A1A4A350;
+    --accent-color: #5a1d00;
+}
+
 .App {
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
     height: 100vh;
 }
-
-body {
-    background-color: whitesmoke;
-}
-
 
 .nav-item a {
     color: #5a1d00;
@@ -64,14 +68,10 @@ STYLESHEET */
     cursor: pointer;
     background: #152d7d;
 }
-/* WILL DELETE THIS ONCE THE NEW DIV HAS BEEN STYLED */
-/* .homeCardImgOverlayDiv {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-} */
+
+.react-parallax {
+    max-width: 100%;
+}
 
 .hero {
     width: 100vw;
@@ -97,16 +97,8 @@ STYLESHEET */
     color: white;
     font-size: 6rem;
     backdrop-filter: blur(.75px);
-    width: fit-content;
 }
 
-.mainImg {
-    /* aspect-ratio: 2.5/1; */
-    height: 25rem;
-    object-fit: cover;
-    width: 100vw !important;
-    max-width: 100%;
-}
 
 .home-intro {
     font-size: 1.75vw;
