@@ -453,6 +453,10 @@ figure {
     padding: .5rem;
 }
 
+.calendar-div {
+    display: flex;
+}
+
 /* PROBABLY DON'T NEED THIS MEDIA-Q */
 @media only screen and (max-width: 576px) {
     .hero-text h1 {

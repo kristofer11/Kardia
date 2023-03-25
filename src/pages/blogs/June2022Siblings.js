@@ -6,18 +6,17 @@ const July2021 = () => {
     return (
         <div className='page-content blog'>
             <p className='blog-author'>JUNE 1, 2022 by Joanna Bischoff</p>
-            <h4 className='blog-title'>25 Ways To Keep Younger Siblings Busy During Homeschooling</h4>
-
+            <h4 className='blog-title' style={{ textAlign: 'center' }}>25 Ways To Keep Younger Siblings Busy During Homeschooling</h4>
+            <figure>
+                <img src={Baby} alt='Baby with blanket on head' className='blog-img col-md-7 col-9' />
+                <figcaption>Photo by Jonathan Borba on Unsplash</figcaption>
+            </figure>
             <div className='blog-content'>
                 <p>Would you like to homeschool, but aren’t sure what to do with all the different ages? </p>
                 <p>If you don’t have access to daycare options (or a family that’s got the time!), then you may find yourself juggling little ones and the needs for the attention of the school-aged child. Of course, they can play with their toys, etc, but at some point, they’ll need another option! Every child and every family is different in dynamic, but for these first few pivotal years, it helps to have quick go-to ideas! </p>
                 <p>Here at Kardia Classical School, we are in the Pacific Northwest, so that means tons of rain! We have plenty of indoor activities for those indoor days—but don’t forget to take advantage of your sunny days when you have them! </p>
                 <h4>Babies</h4>
                 <p>They can play with the same toys at this age and not get too bored! Try taking them out in fresh air if you can—it works wonders, especially with babies. Soft music can be soothing, too. Flexibility is really key when you’ve got an infant in the house, and that applies in homeschooling, too! One of the best ways is to have things prepped in such a way that the school-aged sibling can do work independently. Also, sometimes your key school times for one-on-one interaction are going to be those precious nap times! Some babies do great in a bouncer if they can see the family working. Give yourself and your homeschooling grace in this season! bab</p>
-                <figure>
-                    <img src={Baby} alt='Baby with blanket on head' className='blog-img col-md-7 col-9' />
-                    <figcaption>Photo by Jonathan Borba on Unsplash</figcaption>
-                </figure>
                 <h4>Toddlers</h4>
                 <p>The older your baby gets, the bigger the range of options! At this age, they want a little more challenge and, thankfully, have slightly longer play periods. They also can play independently at these ages. One way to handle it is to have “stations” or perhaps boxes that you switch out one at a time. </p>
                 <ol>
