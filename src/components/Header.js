@@ -26,15 +26,19 @@ function Header() {
         <NavbarBrand className='navbarBrand' href='/'>
           <img src={Logo} width='144' className='float-start' />
           <div className='navbarBrandText'>
-            <h1 style={{ fontFamily: 'times' }}>Kardia Classical</h1>
-            <h1 style={{ fontFamily: 'times' }}>School</h1>
+            <h1>Kardia Classical</h1>
+            <h1>School</h1>
           </div>
         </NavbarBrand>
       </div>
 
       <Navbar light sticky='top' expand='lg'>
-        <a href='/'>
-          <img style={{ width: '17vw' }} src={Logo} className='me-lg-5 d-lg-none' />
+        <a href='/' className='smallNavbarBrand'>
+          <img src={Logo} className='me-lg-5 d-lg-none smallNavbarBrandLogo' />
+          <div className='smallNavbarBrandText'>
+            <h1 className='d-lg-none'>Kardia Classical</h1>
+            <h1 className='d-lg-none'>School</h1>            
+          </div>
         </a>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
@@ -127,7 +131,7 @@ function Header() {
                 <DropdownItem>
                   <NavItem>
                     <NavLink href='/fundraising'>
-                      All Fundraising Opportunities
+                      Fundraising Opportunities
                     </NavLink>
                   </NavItem>
                 </DropdownItem>

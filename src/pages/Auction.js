@@ -35,7 +35,7 @@ const Auction = () => {
                     <img className='col-8' src={auction} style={{ maxWidth: '100%' }} />
                 </a>
                 <p className='mt-2' style={{ color: '#A1474C', fontSize: '2rem', textAlign: 'center' }}><em>Click on the bridge to visit the auction website!</em></p>
-                <h2 className='text-center' style={{ fontSize: '2.5rem', color: '#A1474C', marginTop: '2rem', backgroundColor: '#C8CFD8' }}>Plantinum Sponsor - Whitfield's Licencins Agency</h2>
+                <h2 className='text-center' style={{ fontSize: '2.5rem', color: '#A1474C', marginTop: '2rem', backgroundColor: '#C8CFD8' }}>Plantinum Sponsor - Whitfield's Licensing Agency</h2>
                 <a href='http://whitfieldslicensing.com/' className='text-center' target='_blank'>
                     <img className='col-8' src={whitfields} style={{ maxWidth: '100%' }} alt='Whitfield Auto Licensing logo' />
                 </a>

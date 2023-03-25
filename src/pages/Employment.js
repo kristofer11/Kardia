@@ -24,7 +24,7 @@ const Employment = () => {
                     <h3 className='text-center pt-4'>Looking for part-time teaching experience at a Classical Christian School?</h3>
                     <p>Kardia Classical School is a school in Snohomish County, Washington, serving kindergarten through eighth-grade students. We strive for excellence in academics and seek those that possess a love for children, a love for learning, and the gift of teaching. We look for applicants who are marked by their passion for life-long learning, Christian discipleship, a biblical worldview, and a solid working knowledge of the subject(s) they teach.</p>
                     <p>
-                        Kardia Classical School is a member of the Association of Classical Christian Schools <a href='https://classicalchristian.org/https://classicalchristian.org/' target='_blank'>(ACCS)</a>. Please see the teacher job description (see document section below) for more information about daily expectations.
+                        Kardia Classical School is a member of the Association of Classical Christian Schools <a href='https://classicalchristian.org/' target='_blank'>(ACCS)</a>. Please see the teacher job description (see document section below) for more information about daily expectations.
                     </p>
                 </div>
                 <h3>OPEN POSITIONS FOR THE 2023-2024 SCHOOL YEAR</h3>
@@ -43,35 +43,35 @@ const Employment = () => {
                 <div id='whatIsClassical' style={{ borderTop: '2px solid black', borderBottom: '2px solid black' }} className='info-block'>
                     <h3 className='text-center pt-4'>Documents</h3>
                     {/* FIX THE DOWNLOAD LINKS SO THE BUTTONS ARE WRAPPED IN <a></a> TAGS */}
-                    <p>
-                        <a href={TeacherApp} target='_blank'>Teacher Job Application
+                    <p className='document-div'>
+                        <a href={TeacherApp} target='_blank' style={{fontSize: '1.5rem'}}>Teacher Job Application
                         </a>
 
-                        <button href={TeacherApp} download className='download-button'> (download)
-                        </button>
-
-                    </p>
-                    <p>
-                        <a href={SubApp} target='_blank'>Substitute Teacher Job Application
-                        </a>
-
-                        <button href={SubApp} download className='download-button'> (download)
-                        </button>
-
-                    </p>
-                    <p>
-                        <a href={JobDescrip} target='_blank'>Teacher Job Description
-                        </a>
-
-                        <a href={JobDescrip} download ><button className='download-button'> (download)
+                        <a href={TeacherApp} download><button  className='download-button'> Download
                         </button></a>
 
                     </p>
-                    <p>
+                    <p className='document-div'>
+                        <a href={SubApp} target='_blank' style={{fontSize: '1.5rem'}}>Substitute Teacher Job Application
+                        </a>
+
+                        <a href={SubApp} download><button  className='download-button'> Download
+                        </button></a>
+
+                    </p>
+                    <p className='document-div'>
+                        <a href={JobDescrip} target='_blank' style={{fontSize: '1.5rem'}}>Teacher Job Description
+                        </a>
+
+                        <a href={JobDescrip} download ><button className='download-button'> Download
+                        </button></a>
+
+                    </p>
+                    <p className='document-div' style={{fontSize: '1.5rem'}}>
                         <a href={Mission} target='_blank'>Mission and Statement of Faith Agreement
                         </a>
 
-                        <a href={Mission} download className='download-button'> <button>(download)</button>
+                        <a href={Mission} download > <button className='download-button'>Download</button>
                         </a>
 
                     </p>

@@ -23,12 +23,6 @@ const July2022 = () => {
                     If, as it’s been said, kids lose 2 ½ months of learning over the summer, how can you help your kids get a good start next year, without losing all that learning? Here are some ways that we’ve come up from years of educational experience to help your kids retain their learning:
                 </p>
 
-                <ol>
-                    <li>
-                        
-                    </li>
-                </ol>
-
                 <p>
                     At Kardia Classical School, one of our main goals is to teach the whole child. A child is not just their brain, their body, or their soul. They are all three working as one and learning new skills while using all three will be the most beneficial and reap the best rewards. The study of martial arts and the methodology of classical education can be a beautiful marriage that complements each other in many ways. We can’t wait to see all that our students learn in martial arts this coming year, and how it affects their overall education.
                 </p>

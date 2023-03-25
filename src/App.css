@@ -7,8 +7,9 @@
     --link-hover-bg-color: #152d7d;
     --nav-link-hover-color: #008000;
     --accent-text-color: #A1474C;
+    --main-font-serif: 'Martel', serif;
+    --main-font-sans: 'Martel Sans', sans-serif;
 }
-
 
 
 .App {
@@ -16,6 +17,10 @@
     flex-direction: column;
     box-sizing: border-box;
     height: 100vh;
+}
+
+body {
+    margin: 0;
 }
 
 .nav-item a {
@@ -45,20 +50,58 @@ a.navlink-blog {
 .navbar-brand {
     display: flex;
     align-items: center;
-    /* NOT SURE ABOUT THIS BG COLOR, SEE .nav li a:hover color to change back */
     background-color: var(--main-bg-color);
-    /* background: #152d7d; */
     width: fit-content;
     padding-right: 5px;
 }
 
 .navbarBrandDiv {
     width: 100%;
-    background: var(--main-bg-color);
+    background-color: var(--main-bg-color);
 }
 
 .navbarBrandText {
+    margin-top: 33px;
+}
+
+.navbarBrandText,
+.navbarBrandText>h1 {
     color: var(--main-text-color);
+    font-family: var(--main-font-sans);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.smallNavbarBrand {
+    text-decoration: none;
+    font-family: 'Martel', serif;
+    font-weight: bold;
+    color: var(--main-text-color);
+    display: flex;
+    align-items: center;
+}
+
+.smallNavbarBrand:hover{
+    color: var(--main-text-color);
+}
+
+.smallNavbarBrandText {
+    font-size: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.4rem;
+}
+
+.smallNavbarBrandText h1 {
+    font-family: var(--main-font-sans);
+    font-weight: bold;
+}
+
+
+.smallNavbarBrandLogo {
+    aspect-ratio: 1/1 !important;
+    width: 99px;
+    height: fit-content;
 }
 
 .nav li a {
@@ -87,10 +130,16 @@ a.navlink-blog {
 .hero-text {
     margin-left: 14vw;
     backdrop-filter: blur(1px);
+    text-shadow:
+    -.5px -.5px .5px lightgrey,
+    .5px -.5px .5px lightgrey,
+    -.5px .5px .5px lightgrey,
+    .5px .5px .5px varlightgrey;
 }
 
 .hero-text h1 {
     margin-block: -1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .mainImg {
@@ -122,6 +171,54 @@ a.navlink-blog {
     color: var(--accent-text-color);
 }
 
+.you-tube-link {
+    color: var(--accent-text-color);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.home-link-div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding-block: 2rem;
+    text-align: center;
+}
+
+.home-page-link {
+    display: flex;
+    width: 222px;
+    border-radius: 2rem !important;
+    border: 1px solid var(--accent-text-color) !important;
+}
+
+.home-page-link .card-img-overlay {
+    display: flex;
+    align-items: center;
+}
+
+.home-page-link-img {
+    width: 222px;
+    border-radius: 2rem !important;
+}
+
+.home-page-link-text {
+    color: var(--main-light-text-color);
+    backdrop-filter: blur(1px);
+    border-radius: 4px;
+    font-size: 2rem;
+    text-shadow:
+        -1px -1px 0 var(--nav-link-color),
+        1px -1px 0 var(--nav-link-color),
+        -1px 1px 0 var(--nav-link-color),
+        1px 1px 0 var(--nav-link-color);
+}
+
+.home-page-link .card-img-overlay:hover {
+    backdrop-filter: blur(3px);
+    transform: scale(1.01);
+}
 
 .page-content {
     display: flex;
@@ -131,6 +228,7 @@ a.navlink-blog {
     width: 70%;
     max-width: 100vw;
     margin: 1rem 12vw 2rem 12vw;
+    font-family: var(--main-font-sans)
 }
 
 .info-block {
@@ -196,17 +294,21 @@ form {
     flex-wrap: wrap;
 }
 
-.address-block > h4 {
+.address-block>h4 {
     font-size: 1.2rem;
     font-weight: bold;
 }
 
-.address-block > p {
+.address-block>p {
     font-size: 1.1rem;
 }
 
 .footer-social {
     width: 73px;
+}
+
+.yelp {
+    width: 63px;
 }
 
 .footer-logo-div {
@@ -219,7 +321,7 @@ form {
 img.footer-logo {
     width: 222px;
     height: auto;
-    aspect-ratio:inherit ;
+    aspect-ratio: inherit;
     margin-inline: 1rem;
     margin-block: .5rem;
 }
@@ -308,7 +410,7 @@ img.footer-logo {
 }
 
 #what-is-cc-subtitle {
-margin-top: 2rem;
+    margin-top: 2rem;
 }
 
 .blog {
@@ -331,22 +433,56 @@ figure {
     text-align: left;
 }
 
-/* GET RID OF MARGIN FOR SMALL SCREENS */
+.document-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.document-div a {
+    text-decoration: none;
+}
+
+.download-button {
+    color: var(--accent-text-color);
+    background-color: var(--main-bg-color);
+    font-size: 1.5rem;
+    display: flex;
+    margin-left: 2rem;
+    border-radius: 2rem;
+    padding: .5rem;
+}
+
+/* PROBABLY DON'T NEED THIS MEDIA-Q */
+@media only screen and (max-width: 576px) {
+    .hero-text h1 {
+        font-size: 11vw !important;
+        margin-block: 0rem;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .nav {
         flex-direction: column !important;
     }
+
     .homeOverlayText {
         font-size: 10vw !important;
     }
+
+    .hero-text {
+        font-size: 10vw;
+    }
+
     .page-content {
         width: 100vw;
         max-width: 100%;
         padding-inline: 1rem;
         margin: 0 0 2rem 0;
     }
+
     .hero-text {
-        margin-left: 1rem; 
+        margin-left: 1rem;
     }
 }
 
@@ -360,6 +496,7 @@ figure {
     .homeOverlayText {
         font-size: 8vw;
     }
+
     .card-text {
         font-size: 1.75rem;
     }
@@ -380,4 +517,3 @@ figure {
         font-size: 1.75rem;
     }
 }
-

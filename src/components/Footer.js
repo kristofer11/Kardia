@@ -34,9 +34,9 @@ const Footer = () => {
                     <p style={{textAlign: 'center', color: '#A1474C', fontSize: '1.3rem'}}>Proud member of:
                     </p>
                     <div className='footer-logo-div'>
-                        <img src={Accs} className='footer-logo' alt='ACCS Logo' />
-                        <img src={Adf} className='footer-logo' alt='ADF Logo' />
-                        <img src={ClassicalDif} className='footer-logo' alt='Classical Difference Logo' />
+                        <a href='https://classicalchristian.org/' target='_blank'><img src={Accs} className='footer-logo' alt='ACCS Logo' /></a>
+                        <a href='https://adflegal.org/' target='_blank'><img src={Adf} className='footer-logo' alt='ADF Logo' /></a>
+                        <a href='https://classicaldifference.org/' target='_blank'><img src={ClassicalDif} className='footer-logo' alt='Classical Difference Logo' /></a>
                     </div>
 
                 </Row>
@@ -49,7 +49,7 @@ const Footer = () => {
                             <img src={FbLogo} alt="Instagram Logo" className='footer-social' />
                         </a>
                         <a className='mx-2' href='https://www.yelp.com/biz/kardia-classical-school-snohomish' target='_blank'>
-                            <img src={YelpLogo} alt="Instagram Logo" className='footer-social' />
+                            <img src={YelpLogo} alt="Instagram Logo" className='footer-social yelp' />
                         </a>
                     </Col>
                 </Row>
