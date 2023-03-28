@@ -95,12 +95,13 @@ a.navlink-blog {
 .smallNavbarBrandText h1 {
     font-family: var(--main-font-sans);
     font-weight: bold;
+    font-size: 1.5rem;
 }
 
 
 .smallNavbarBrandLogo {
     aspect-ratio: 1/1 !important;
-    width: 99px;
+    width: 88px;
     height: fit-content;
 }
 
