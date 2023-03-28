@@ -224,7 +224,7 @@ function Header() {
               </DropdownMenu>
             </UncontrolledDropdown>
             <a href='/'>
-              <img width='50' src={Logo} className='ms-md-5 d-none d-md-inline' />
+              <img width='50' src={Logo} className='ms-md-5 d-none d-lg-inline' />
             </a>
 
           </Nav>

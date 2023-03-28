@@ -371,7 +371,7 @@ img.footer-logo {
     line-height: var(--line-height);
 
     overflow: hidden;
-    position: relative
+    position: relative;
 }
 
 .expandBtn {
@@ -382,6 +382,7 @@ img.footer-logo {
     font-size: 1.5rem;
     font-weight: bold;
     color: var(--accent-text-color);
+    margin-top: 1.5rem;
 }
 
 .expandBtn:hover {
@@ -409,6 +410,12 @@ img.footer-logo {
     pointer-events: none;
     background: linear-gradient(to bottom, transparent, lightgrey);
 }
+
+@media screen and (max-width: 768px) {
+    .staffCardBio {
+      --max-lines: 3; /* adjust max-height for smaller screens */
+    }
+  }
 
 #what-is-cc-subtitle {
     margin-top: 2rem;
