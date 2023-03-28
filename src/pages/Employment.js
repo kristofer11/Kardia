@@ -28,6 +28,7 @@ const Employment = () => {
                     </p>
                 </div>
                 <h3>OPEN POSITIONS FOR THE 2023-2024 SCHOOL YEAR</h3>
+                <br />
                 <h4>Part-Time Positions</h4>
                 <p>
                     If interested in applying for the 2022-2023 or 2023-2024 school year, see below for more information. For teaching positions, all qualified candidates should have at least a Bachelor’s degree and relevant experience.
