@@ -20,7 +20,9 @@ const StaffCard = ({ staff }) => {
                 <p className='staffCardBio'>
                     {bio}
                 </p>
-                <input type='checkBox' className='expandBtn' />
+                <div className='expandBtnDiv'>
+                    <input type='checkBox' className='expandBtn' />
+                </div>
             </CardBody>
         </Card>
     )

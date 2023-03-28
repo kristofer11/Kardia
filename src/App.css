@@ -385,6 +385,10 @@ img.footer-logo {
     margin-top: 1.5rem;
 }
 
+.expandBtnDiv {
+    margin-top: 1rem;
+}
+
 .expandBtn:hover {
     transform: scale(1.2);
 }
