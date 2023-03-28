@@ -9,6 +9,7 @@ const Tuition = () => {
                     Now accepting applications for the 2023-2024 school year!
                 </h3>
                 <img src={tuition} className='col-12 mb-5' />
+                <p>Plesase note, there is a $50 per family application fee for new families.</p>
                 <p >
                     Visit our <a href='/Programs'>Program Options</a> page to see all of the options for the 2023-2024 school year.
                 </p>
