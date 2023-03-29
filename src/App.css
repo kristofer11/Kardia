@@ -11,7 +11,6 @@
     --main-font-sans: 'Martel Sans', sans-serif;
 }
 
-
 .App {
     display: flex;
     flex-direction: column;
@@ -81,7 +80,7 @@ a.navlink-blog {
     align-items: center;
 }
 
-.smallNavbarBrand:hover{
+.smallNavbarBrand:hover {
     color: var(--main-text-color);
 }
 
@@ -97,7 +96,6 @@ a.navlink-blog {
     font-weight: bold;
     font-size: 1.5rem;
 }
-
 
 .smallNavbarBrandLogo {
     aspect-ratio: 1/1 !important;
@@ -132,10 +130,10 @@ a.navlink-blog {
     margin-left: 14vw;
     backdrop-filter: blur(1px);
     text-shadow:
-    -.5px -.5px .5px lightgrey,
-    .5px -.5px .5px lightgrey,
-    -.5px .5px .5px lightgrey,
-    .5px .5px .5px varlightgrey;
+        -.5px -.5px .5px lightgrey,
+        .5px -.5px .5px lightgrey,
+        -.5px .5px .5px lightgrey,
+        .5px .5px .5px varlightgrey;
 }
 
 .hero-text h1 {
@@ -414,9 +412,10 @@ img.footer-logo {
 
 @media screen and (max-width: 768px) {
     .staffCardBio {
-      --max-lines: 3; /* adjust max-height for smaller screens */
+        --max-lines: 3;
+        /* adjust max-height for smaller screens */
     }
-  }
+}
 
 #what-is-cc-subtitle {
     margin-top: 2rem;
@@ -442,7 +441,7 @@ figure {
     text-align: left;
 }
 
-.document-div{
+.document-div {
     display: flex;
     align-items: center;
     flex-direction: column;
