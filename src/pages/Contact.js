@@ -21,7 +21,7 @@ const Contact = () => {
             />
             <div className='page-content contact-content'>
                 <div className='info-block'>
-                    <h2>There are several ways to get a hold of us!</h2>
+                    <h2 className='text-center'>There are several ways to get a hold of us!</h2>
 
                     <p>Email: <a href='mailto: office@kardiaclassical.org'>office@KardiaClassical.org</a>,</p>
                     <p> Phone: <a href='tel: 360-453-7334'>360-453-7334</a></p>
