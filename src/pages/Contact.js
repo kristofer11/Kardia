@@ -1,10 +1,7 @@
-import { Card, CardImgOverlay, CardImg, } from 'reactstrap';
 import ContactForm from '../components/ContactForm';
 import Ladder from '../assets/posters/ladder.jpg'
 import Hero from '../components/Hero';
 
-
-// PROBABLY NEED A BETTER POSTER IMAGE. ASK LACEY FOR HER PREFERENCE
 const Contact = () => {
     return (
         <div>
