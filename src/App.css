@@ -498,6 +498,19 @@ figure {
     }
 }
 
+.contact-link {
+    text-decoration: none;
+    color: var(--accent-text-color);
+    background-color: var(--alt-bg-color);
+    border-radius: 5px;
+    padding-inline: 1rem;
+}
+
+.contact-link:hover {
+    background-color: var(--link-hover-bg-color);
+    color: var(--main-light-text-color)
+}
+
 @media only screen and (max-width: 992px) {
     .nav {
         flex-direction: column !important;

@@ -18,13 +18,13 @@ const Contact = () => {
             />
             <div className='page-content contact-content'>
                 <div className='info-block'>
-                    <h2 className='text-center'>There are several ways to get a hold of us!</h2>
+                    <h2 className='text-center' style={{color: '#152d7d'}}>We would love to hear from you!</h2>
+                    <h4 className='text-center m-4'>You can reach us via phone, email or Facebook Messenger (see the link in the lower right corner).</h4>
 
-                    <p>Email: <a href='mailto: office@kardiaclassical.org'>office@KardiaClassical.org</a>,</p>
-                    <p> Phone: <a href='tel: 360-453-7334'>360-453-7334</a></p>
-                    <p>You can also fill out the form below and we will get back to you ASAP.</p>
+                    <p style={{fontSize: '1.8rem'}}>Email: <a className='contact-link' href='mailto: office@kardiaclassical.org'>office@KardiaClassical.org</a></p>
+                    <p  style={{fontSize: '1.8rem'}}> Phone: <a className='contact-link' href='tel: 360-453-7334'>360-453-7334</a></p>
                 </div>
-                <ContactForm />
+
             </div>
         </div>
 

@@ -14,16 +14,14 @@ const ContactForm = ({ history }) => {
     const location = useLocation();
     let clickCount = 0;
     const handleSubmit = (values, { resetForm }) => {
-        axios.post("https://formspree.io/f/xnqylggz", values)
-            .then(response => {
-                console.log(response);
-                // handle successful submission
-            })
-            .catch(error => {
-                console.log(error);
-                // handle submission error
-            });
-        console.log(values);
+        const emailMessage = `
+            First Name:   ${values.firstName}      
+            Last Name: ${values.lastName}
+            Phone: ${values.phoneNum}
+            Email: ${values.email}
+            Message: ${values.message}
+        `;
+        window.location.href = 'mailto:klhvattum@live.com'
         resetForm();
         window.location.href = `/messagesent`;
     }
@@ -41,7 +39,6 @@ const ContactForm = ({ history }) => {
                 onSubmit={handleSubmit}
                 validate={validateContactForm}
             >
-                {/* DON'T FORGET TO CHANGE EMAIL TO KARDIA OFFICE EMAIL */}
                 <Form 
                     className='form'
                 >
@@ -171,3 +168,21 @@ export default ContactForm;
 //     </form>
 //   );
 // };
+
+
+
+//OLD HANDLE SUBMIT FOR USE WITH FORMSPREE
+// const handleSubmit = (values, { resetForm }) => {
+//     axios.post("https://formspree.io/f/xnqylggz", values)
+//         .then(response => {
+//             console.log(response);
+//             // handle successful submission
+//         })
+//         .catch(error => {
+//             console.log(error);
+//             // handle submission error
+//         });
+//     console.log(values);
+//     resetForm();
+//     window.location.href = `/messagesent`;
+// }
