@@ -14,7 +14,7 @@ const ContactForm = ({ history }) => {
     const location = useLocation();
     let clickCount = 0;
     const handleSubmit = (values, { resetForm }) => {
-        axios.post("https://formspree.io/f/xzbqvnkj", values)
+        axios.post("https://formspree.io/f/xnqylggz", values)
             .then(response => {
                 console.log(response);
                 // handle successful submission
