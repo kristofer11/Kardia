@@ -24,13 +24,13 @@ const Auction = () => {
             <div className='page-content'>
                 <h3 className='text-center m-2 blog-subtitle'>Welcome to Kardia's blog where you will find articles written by various members of our community!</h3>
             <ul className='blog-link-list'>
-                <li className='blog-link'><a href='/july2022'>Can Martial Arts Integrate Well into a Classical Education?</a></li>
-                <li className='blog-link'><a href='/june2022'>Five Best Practices for Retaining School Learning Over a Long Break (aka, Summer!)</a></li>
-                <li className='blog-link'><a href='/june2022siblings'>25 Ways To Keep Younger Siblings Busy During Homeschooling</a></li>
-                <li className='blog-link'><a href='/july2021'>Why a Well-Rounded Education Includes Music</a>
+                <li className='blog-link'>📄<a href='/july2022'>Can Martial Arts Integrate Well into a Classical Education?</a></li>
+                <li className='blog-link'>📄<a href='/june2022'>Five Best Practices for Retaining School Learning Over a Long Break (aka, Summer!)</a></li>
+                <li className='blog-link'>📄<a href='/june2022siblings'>25 Ways To Keep Younger Siblings Busy During Homeschooling</a></li>
+                <li className='blog-link'>📄<a href='/july2021'>Why a Well-Rounded Education Includes Music</a>
 </li>
-                <li className='blog-link'><a href='/june2021'>What Does “Parent Partnership” Mean?</a></li>
-                <li className='blog-link'><a href='/may2021'>What Does it Mean to be a “Classical School?”</a></li>
+                <li className='blog-link'>📄<a href='/june2021'>What Does “Parent Partnership” Mean?</a></li>
+                <li className='blog-link'>📄<a href='/may2021'>What Does it Mean to be a “Classical School?”</a></li>
             </ul>
             </div>
         </div>
