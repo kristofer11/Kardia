@@ -26,6 +26,7 @@ import July2021 from './pages/blogs/July2021';
 import June2021 from './pages/blogs/June2021';
 import May2021 from './pages/blogs/May2021';
 import June2022Siblings from './pages/blogs/June2022Siblings';
+import Blog from './pages/Blog';
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
           <Route path='/sycamore' element={<Sycamore />} />
           <Route path='/uniforms' element={<Uniforms />} />
           <Route path='/calendar' element={<Calendar />} />
+          <Route path='/blog' element={<Blog />} />
           <Route path='/july2022' element={<July2022 />} />
           <Route path='/june2022' element={<June2022 />} />
           <Route path='/july2021' element={<July2021 />} />
