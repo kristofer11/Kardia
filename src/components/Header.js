@@ -181,11 +181,12 @@ function Header() {
               <DropdownMenu right>
               <DropdownItem>
                   <NavItem>
-                    <NavLink className='navlink-blog' href='/blog' style={{textDecoration: 'underline'}} >
-                      <strong>KARDIA BLOG </strong>
+                    <NavLink className='navlink-blog' href='/blog' >
+                      <strong>Our Blog </strong>
                     </NavLink>
                   </NavItem>
                 </DropdownItem>
+                <DropdownItem divider />
                 <DropdownItem>
                   <NavItem>
                     <NavLink className='navlink-blog' href='/july2022'>
