@@ -30,11 +30,19 @@ const Programs = () => {
                 </div>
                 <img src={sitting} className='col-12' />
                 <div id='whatIsClassical' style={{ borderTop: '2px solid black', borderBottom: '2px solid black' }} className='info-block'>
-                    <h3 className='text-center pt-4'>Kardia at Home</h3>
-                    <p>A secondary option for the 2022-2023 school year is for our guided at-home learning plan. “Kardia at Home” is a four-day guided homeschool program. There will be video lessons for more complex subjects, weekly lesson plans, a curriculum list for easy purchasing, and a monthly online or over-the-phone parent-teacher check-in.</p>
+                    <h3 className='text-center pt-4'>Pre-Kindergarten</h3>
+                    <p>Kardia Classical School offers a Pre-Kindergarten program designed to meet the needs of the child who is age four and potty trained by August 31. The goal is to provide a loving and nurturing Christian environment where children can grow and progress in all areas for the glory of God. The developmentally centered curriculum incorporates a variety of techniques, resources, materials and hands-on experiences in order to address different learning styles. Children develop a love for learning and school through hands-on experiences, discussions and explorations.</p>
+                    <p>The Pre-Kindergarten curriculum prepares a child for kindergarten and is structured to be fun, yet challenging. The program involves active learning and is devised to address the needs of the whole child. Activities and materials engage the students in social, physical, emotional and intellectual development.</p>
                 </div>
+                
                 <img src={atHome} className='col-12' />
                 <div id='whatIsClassical' style={{ borderTop: '2px solid black', borderBottom: '2px solid black' }} className='info-block'>
+                    <h3 className='text-center pt-4'>Kardia at Home</h3>
+                    <p>An additional option for the 2022-2023 school year is our guided at-home learning plan. “Kardia at Home” is a four-day guided homeschool program. There will be video lessons for more complex subjects, weekly lesson plans, a curriculum list for easy purchasing, and a monthly online or over-the-phone parent-teacher check-in.</p>
+                </div>
+               
+                <img src={tuesday} className='col-12' />
+                <div id='whatIsClassical' style={{ borderTop: '2px solid black'}} className='info-block'>
                     <h3 className='text-center pt-4'>"Tuesday Camp" - Enrichment Half Day</h3>
                     <p>This class will be held on Tuesdays and there are two session options, morning or afternoon. The morning session will be focused on Kindergarten through third-grade phonics and math. This is a great opportunity for extra instruction in these crucial topics. Our afternoon session will have a different overall theme each quarter and will include all kinds of STEAM activities. STEAM is science, technology, engineering, art, and music. You can sign up for one or both time slots if your child is in K-3rd (AM or PM), or just the PM slot if they are older.</p>
                     <p>
@@ -44,7 +52,6 @@ const Programs = () => {
                         We will also have a “drop-in” option for a slightly higher daily fee. See the tuition and fees tab for more information.
                     </p>
                 </div>
-                <img src={tuesday} className='col-12' />
                 <div id='whatIsClassical' style={{ borderTop: '2px solid black', borderBottom: '2px solid black' }} className='info-block'>
                     <h3 className='text-center pt-4'><em>A La Carte</em> Options</h3>
                     <img src={alacarte} className='col-12' style={{ marginTop: '2rem', marginBottom: '2rem' }} />
@@ -71,7 +78,7 @@ const Programs = () => {
                         <strong>Phonics Grades K-2:  </strong>
                     </h5>
                     <p style={{ textAlign: 'left' }}>
-                        Saxon Phonics and Spelling combines systematic, explicit instruction with daily practice opportunities and ongoing assessment to ensure prior knowledge sticks and new knowledge accumulates. Saxon Phonics and Spelling engages the whole student by offering a comprehensive, multisensory approach to mastering critical foundational skills. In these videos, students will work alongside Mrs. Molina (Mrs. Haggerty for part of Phonics Kindergarten) as she helps them learn and review their letters, as well as sounds, including digraphs, diphthongs, trigraphs, hard and soft vowel sounds, bossy r, ghost letters, and so much more. Saxon Phonics and Spelling helps children understand the rules behind the spelling of a word, and in turn, helps them sound them our correctly as they learn to read.  Materials needed for this class include phonics readers, reading tiles, a letter strip, and worksheets (all purchased through Kardia Classical School).
+                        Saxon Phonics and Spelling combines systematic, explicit instruction with daily practice opportunities and ongoing assessment to ensure prior knowledge sticks and new knowledge accumulates. Saxon Phonics and Spelling engages the whole student by offering a comprehensive, multisensory approach to mastering critical foundational skills. In these videos, students will work alongside Mrs. Molina as she helps them learn and review their letters, as well as sounds, including digraphs, diphthongs, trigraphs, hard and soft vowel sounds, bossy r, ghost letters, and so much more. Saxon Phonics and Spelling helps children understand the rules behind the spelling of a word, and in turn, helps them sound them our correctly as they learn to read.  Materials needed for this class include phonics readers, reading tiles, a letter strip, and worksheets (all purchased through Kardia Classical School).
                     </p>
                     <h5>
                         <strong>Shurley English Grammar Grades 1-6: </strong>

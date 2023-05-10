@@ -10,7 +10,6 @@ const Tuition = () => {
                 <h3 className='text-center pt-4'>
                     Now accepting applications for the 2023-2024 school year!
                 </h3>
-                <img src={Prek} className='col-12' />
                 <img src={tuition} className='col-12 mb-5' />
                 <p><strong>Please note, there is a $50 per family application fee for new families.</strong><em> This is a one-time fee.</em></p>
                 <p >
