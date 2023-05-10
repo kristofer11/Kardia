@@ -1,6 +1,5 @@
-import tuition from '../assets/enroll/Tuition 2023.png';
+import tuition from '../assets/enroll/Tuition-2023-2024.png';
 import Tuesday from '../assets/Tuesday-Camp-2023-2024-768x113.png';
-import Prek from '../assets/Tuition 2023-2024-1.png';
 
 const Tuition = () => {
     return (
