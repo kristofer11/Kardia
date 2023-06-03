@@ -20,4 +20,4 @@ const Tuition = () => {
     )
 }
 
-export default Tuition
+export default Tuition;
