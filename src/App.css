@@ -105,6 +105,7 @@ a.navlink-blog {
 
 .nav li a {
     transition: 300ms;
+    border-radius: 5px;
 }
 
 .nav li a:hover {
@@ -112,6 +113,7 @@ a.navlink-blog {
     color: var(--nav-link-hover-color);
     cursor: pointer;
     background: var(--link-hover-bg-color);
+    border-radius: 11px;
 }
 
 .react-parallax {
