@@ -13,7 +13,7 @@ const Auction = () => {
         <div>
             <Hero
                 img={bridge}
-                alt='Train on bridge'
+                alt='Blackboard with smudges of chalk.'
                 strength={333}
                 title={
                     <>

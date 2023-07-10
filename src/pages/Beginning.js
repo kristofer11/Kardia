@@ -8,7 +8,7 @@ const Mission = () => {
         <div>
             <Hero
                 img={door}
-                alt='Teal door partially open'
+                alt='Teal door partially open, blurry view of outdoors through the crack.'
                 strength={333}
                 title={
                     <>

@@ -6,7 +6,7 @@ const June2022 = () => {
             <p className='blog-author'>JUNE 23, 2022 by Joanna Bischoff</p>
             <h4 className='blog-title'>Five Best Practices For Retaining School Learning Over A Long Break (aka, Summer!)</h4>
             <figure>
-                <img src={Popsicles} alt='Child in martial arts pose on beach' className='blog-img col-md-8' />
+                <img src={Popsicles} alt='Happy child holding popsicles' className='blog-img col-md-8' />
                 {/* <figcaption>Photo by Thao Le Hoang on Unsplash</figcaption> */}
             </figure>
 

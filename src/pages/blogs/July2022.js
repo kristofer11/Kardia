@@ -6,7 +6,7 @@ const July2022 = () => {
             <p className='blog-author'>JULY 4, 2022 by Lacey Hvattum</p>
             <h4 className='blog-title'>Can Martial Arts Integrate Well into a Classical Education?</h4>
             <figure>
-                <img src={Karate} alt='Child in martial arts pose on beach' className='blog-img col-md-8' />
+                <img src={Karate} alt='Child in martial arts pose on beach with sunset' className='blog-img col-md-8' />
                 {/* <figcaption>Photo by Thao Le Hoang on Unsplash</figcaption> */}
             </figure>
 

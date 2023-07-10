@@ -16,7 +16,7 @@ const Calendar = () => {
     
         <div>
             <p>2023-2024 (proposed)</p>
-            <a href={Calendar23} download='2023-24 Kardia Calendar.pdf'><img src={proposedCalendar} className='col-10 mb-5 calendar' alt='Proposed 2023-24 calendar2' /></a>
+            <a href={Calendar23} download='2023-24 Kardia Calendar.pdf'><img src={proposedCalendar} className='col-10 mb-5 calendar' alt='Proposed 2023-24 school calendar with option to download' /></a>
         </div>
         </div>  
     </div>

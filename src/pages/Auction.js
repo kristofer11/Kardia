@@ -13,18 +13,18 @@ const Auction = () => {
         <div>
             <Hero
                 img={bridge}
-                alt='Train on bridge'
+                alt='Stem engine on a long, old stone bridge.'
                 strength={333}
                 title={
                     <>
                         <h1 className='homeOverlayText'> Annual Auction</h1>
-                        <h6     
-                            style={{    
-                                fontSize: '4vw', 
-                                color: 'white', 
-                                marginLeft: '12vw', 
+                        <h6
+                            style={{
+                                fontSize: '4vw',
+                                color: 'white',
+                                marginLeft: '12vw',
                                 padding: '.24rem'
-                            }}> 
+                            }}>
                             <em>Building Bridges to the Future</em>
                         </h6>
                     </>
@@ -32,11 +32,11 @@ const Auction = () => {
             />
             <div className='page-content'>
                 <a href='https://fundraiser.support/kardia2023auction' className='text-center' target='_blank'>
-                    <img className='col-8' src={auction} style={{ maxWidth: '100%' }} />
+                    <img className='col-8' src={auction} style={{ maxWidth: '100%' }} alt='Card reading "Building Bridges to the Future." Contains info the annual auction: bidding opens at 7am on Monday, March 20, 2023, closes at 7pm on Saturday, March, 25, 2023' />
                 </a>
                 <p className='mt-2' style={{ color: '#A1474C', fontSize: '2rem', textAlign: 'center' }}><em>Click on the bridge to visit the auction website!</em></p>
                 <h2 className='text-center' style={{ fontSize: '2.5rem', color: '#A1474C', marginTop: '2rem', backgroundColor: '#C8CFD8' }}>Plantinum Sponsor - Whitfield's Licensing Agency</h2>
-                <a href='http://whitfieldslicensing.com/' className='text-center' target='_blank'>
+                <a href='http://whitfieldslicensing.com/' className='text-center mb-4' target='_blank'>
                     <img className='col-8' src={whitfields} style={{ maxWidth: '100%' }} alt='Whitfield Auto Licensing logo' />
                 </a>
                 <p><em>Thank you, Whitfields Licensing, for always being a huge supporter of our school.

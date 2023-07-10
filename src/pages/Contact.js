@@ -7,7 +7,7 @@ const Contact = () => {
         <div>
             <Hero
                 img={Ladder}
-                alt='Mailbox'
+                alt='Ladder in a library with many vintage books on tall shelves'
                 strength={333}
                 title={
                     <>

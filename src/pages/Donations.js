@@ -12,7 +12,7 @@ const Donations = () => {
                 </p>
                 <p><em>Click on the PayPal logo below to be routed to our PayPal account.</em></p>
                 <a className='text-center w-100' href='https://www.paypal.com/donate/?hosted_button_id=WAEDRZYKQJJBE' target='_blank'>
-                    <img src={payPal} className='col-4 mt-3' />
+                    <img src={payPal} className='col-4 mt-3' alt='Paypal logo linking to Kardia donation page.' />
                 </a>
                 <p className='mt-3'><strong>Your contributions may be tax-deductible</strong>. Kardia Classical School’s Tax ID is #85-1947905. We are an IRS-designated 501 (c)(3) non-profit organization. Please contact your tax advisor for tax deduction advice.</p>
                 

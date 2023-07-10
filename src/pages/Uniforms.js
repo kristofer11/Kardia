@@ -10,8 +10,16 @@ const Uniforms = () => {
                 <p >
                     We will be sticking with the uniform tradition for our in-person days. This year, students will be required to wear formal and daily uniform items. Logo items will be available to order throughout the year. Please see the uniform policy below for more specific information and where to order logo items. Click <a href='http://www.schoolbelles.com/myschool/M37/s2950' target='_blank'>HERE</a> to be relocated to our School Belles uniform page. Our school code is S2950. There are several required items from School Belles.
                 </p>
-                <img style={{ maxWidth: '100%', marginBottom: '1rem' }} src={uniforms} className='col-xl-5 mx-xl-2' alt='document explaining Kardia uniform policy' />
-                <img style={{ maxWidth: '100%', marginBottom: '1rem' }} src={prekuniforms} className='col-xl-5 mx-xl-2' alt='document explaining Kardia uniform policy' />
+                <img
+                    style={{ maxWidth: '100%', marginBottom: '1rem' }}
+                    src={uniforms}
+                    className='col-xl-5 mx-xl-2'
+                    alt='Graphic showing uniform policy for 2023-2024 school year'
+                />
+                <img
+                    style={{ maxWidth: '100%', marginBottom: '1rem' }} src={prekuniforms}
+                    className='col-xl-5 mx-xl-2'
+                    alt='document explaining Kardia uniform policy' />
                 <p>These are the uniform requirements for the 2023-2024 school year. Please note that there are several changes.</p>
             </div>
         </div>)

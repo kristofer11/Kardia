@@ -6,7 +6,7 @@ const July2021 = () => {
             <p className='blog-author'>JULY 13, 2021 by Leslie Schmunk</p>
             <h4 className='blog-title'>Why a Well-Rounded Education Includes Music</h4>
             <figure>
-                <img src={Brain} alt='Brain with music notes' className='blog-img col-md-7 col-9' />
+                <img src={Brain} alt='Brain with music notes and quote: "FACT: one of the only activities that activates, stimulates, and uses the entire brain is MUSIC"' className='blog-img col-md-7 col-9' />
             </figure>
 
             <div className='blog-content'>

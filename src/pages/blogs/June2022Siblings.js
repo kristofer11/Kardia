@@ -31,7 +31,7 @@ const July2021 = () => {
                     <li>Wagon wheel dry pasta with pipe cleaners for patterning, making shapes, and more</li>
                 </ol>
                 <figure>
-                    <img src={Toddler} alt='Toddler with toys' className='blog-img col-md-7 col-9' />
+                    <img src={Toddler} alt='Toddler playing with books and toys' className='blog-img col-md-7 col-9' />
                     {/* <figcaption>Photo by Yuri Shirota on Unsplash</figcaption> */}
                 </figure>
                 <h4>Preschoolers</h4>
@@ -55,7 +55,7 @@ const July2021 = () => {
                     <li>Books, especially simple look and finds</li>
                 </ol>
                 <figure>
-                    <img src={Blocks} alt='Toddler with toys' className='blog-img col-md-5 col-6' />
+                    <img src={Blocks} alt='Young child building with blocks' className='blog-img col-md-5 col-6' />
                     {/* <figcaption>Photo by Yuri Shirota on Unsplash</figcaption> */}
                 </figure>
                 <p>Most of the time, the younger siblings like to be involved and feel like they’re a part of it. We do Bible storytime on the couch; many homeschooling families have a “morning basket”. Also, we were able to have three desks, and although our youngest at the time wasn’t really of an age to sit at it, I knew the ownership of space would quickly come into play. If you have a shelf with desk “stations” you’ll want to quickly make space for the youngest kids!</p>

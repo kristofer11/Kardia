@@ -11,7 +11,7 @@ const Employment = () => {
         <div>
             <Hero
                 img={Chalkboard}
-                alt='Blackboard'
+                alt='Blackboard with smudges of chalk.'
                 strength={333}
                 title={
                     <>

@@ -40,7 +40,7 @@ const Home = () => {
             </div>
             <div className='page-content'>
 
-                <img src={jogathon} className='col-12' />
+                <img src={jogathon} className='col-12' alt='Smiling children with PE teacher under an arch of balloons.' />
 
                 <div id='whatIsClassical' style={{ borderTop: '2px solid black', borderBottom: '2px solid black' }} className='info-block'>
                     <h3 className='text-center pt-4'>What is Classical Christian Education?</h3>

@@ -9,7 +9,7 @@ const Faculty = () => {
         <div className='d-flex flex-column align-items-center'>
             <Hero
                 img={Library}
-                alt='Library with vaulted ceiling'
+                alt='Library with vaulted ceiling and tall shelves full of books. '
                 strength={333}
                 title={
                     <>

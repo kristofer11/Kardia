@@ -6,7 +6,7 @@ const May2021 = () => {
             <p className='blog-author'>MAY 12, 2021 by Kris Hvattum</p>
             <h4 className='blog-title'>What Does it Mean to be a “Classical School?”</h4>
             <figure>
-                <img src={Pillars} alt='Rows of pillars' className='blog-img col-md-7 col-9' />
+                <img src={Pillars} alt='Rows of pillars with bright sun in the background' className='blog-img col-md-7 col-9' />
                 {/* <figcaption>Photo by Chris Brignola on Unsplash</figcaption> */}
             </figure>
 
