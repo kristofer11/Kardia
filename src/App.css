@@ -428,7 +428,7 @@ img.footer-logo {
     margin-top: 2rem;
 }
 
-.blog-subtitle { 
+.blog-subtitle {
     padding-top: 22px;
 }
 
@@ -545,6 +545,14 @@ figure {
     color: pink;
 }
 
+.calendar-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.calendar {
+    max-width: 700px;
+}
 
 @media only screen and (max-width: 992px) {
     .nav {
