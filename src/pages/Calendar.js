@@ -10,7 +10,7 @@ const Calendar = () => {
         <h2 className='text-center' style={{fontSize: '3rem'}}>Calendar</h2>
         
             <p >
-            Here is the proposed calendar for the 2023-2024 School Year! Don’t forget, we are a small school, so dates may be subject to change. However, We will give plenty of notice if anything does change. Whenever there are changes to the calendar, it will be updated here as well.<br /><strong>Click on the calendar below to download.</strong><br/><em>Please note that the 2023-2024 calendar is tentative at this point.</em>
+            Here is the proposed calendar for the 2023-2024 School Year! Don’t forget, we are a small school, so dates may be subject to change. However, We will give plenty of notice if anything does change. Whenever there are changes to the calendar, it will be updated here as well.<br /><strong>Click on the calendar below to <a href={Calendar23} download='2023-24 Kardia Calendar.pdf'>download</a>.</strong><br/><em>Please note that the 2023-2024 calendar is tentative at this point.</em>
             </p>  
         <div className='calendar-div'>
     
