@@ -7,7 +7,7 @@ const May2021 = () => {
             <h4 className='blog-title'>What Does it Mean to be a “Classical School?”</h4>
             <figure>
                 <img src={Pillars} alt='Rows of pillars' className='blog-img col-md-7 col-9' />
-                <figcaption>Photo by Chris Brignola on Unsplash</figcaption>
+                {/* <figcaption>Photo by Chris Brignola on Unsplash</figcaption> */}
             </figure>
 
             <div className='blog-content col-md-8'>

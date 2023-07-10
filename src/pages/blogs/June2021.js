@@ -7,7 +7,7 @@ const June2021 = () => {
             <h4 className='blog-title'>What Does “Parent Partnership” Mean?</h4>
             <figure>
                 <img src={Apple} alt='Brain with music notes' className='blog-img col-md-7 col-9' />
-                <figcaption>Photo by Element5 Digital on Unsplash</figcaption>
+                {/* <figcaption>Photo by Element5 Digital on Unsplash</figcaption> */}
             </figure>
 
             <div className='blog-content'>

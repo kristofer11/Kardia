@@ -9,7 +9,7 @@ const July2021 = () => {
             <h4 className='blog-title' style={{ textAlign: 'center' }}>25 Ways To Keep Younger Siblings Busy During Homeschooling</h4>
             <figure>
                 <img src={Baby} alt='Baby with blanket on head' className='blog-img col-md-7 col-9' />
-                <figcaption>Photo by Jonathan Borba on Unsplash</figcaption>
+                {/* <figcaption>Photo by Jonathan Borba on Unsplash</figcaption> */}
             </figure>
             <div className='blog-content'>
                 <p>Would you like to homeschool, but aren’t sure what to do with all the different ages? </p>
@@ -32,7 +32,7 @@ const July2021 = () => {
                 </ol>
                 <figure>
                     <img src={Toddler} alt='Toddler with toys' className='blog-img col-md-7 col-9' />
-                    <figcaption>Photo by Yuri Shirota on Unsplash</figcaption>
+                    {/* <figcaption>Photo by Yuri Shirota on Unsplash</figcaption> */}
                 </figure>
                 <h4>Preschoolers</h4>
                 <p>Once your littles reach the older ages, they can sit for longer periods of time-but, not usually the full amount of school time! They’ll get longer times for their “stations” (or however you plan it), but they still will wander quite a bit between activities. There are some great at-home preschool curriculum options, but you’ll want more for them to do! Here are some ideas: </p>
@@ -56,7 +56,7 @@ const July2021 = () => {
                 </ol>
                 <figure>
                     <img src={Blocks} alt='Toddler with toys' className='blog-img col-md-5 col-6' />
-                    <figcaption>Photo by Yuri Shirota on Unsplash</figcaption>
+                    {/* <figcaption>Photo by Yuri Shirota on Unsplash</figcaption> */}
                 </figure>
                 <p>Most of the time, the younger siblings like to be involved and feel like they’re a part of it. We do Bible storytime on the couch; many homeschooling families have a “morning basket”. Also, we were able to have three desks, and although our youngest at the time wasn’t really of an age to sit at it, I knew the ownership of space would quickly come into play. If you have a shelf with desk “stations” you’ll want to quickly make space for the youngest kids!</p>
                 <p>One of the most helpful things we’ve found as a homeschooling family is having Kardia’s curriculum. They offer videos for the harder subjects, a daily schedule, and a suggested curriculum list! It’s been a lifesaver for time and energy—and, often, the older ones will watch a (short) video and then do their lesson while I’m getting the youngest settled, changed, cleaned up, or otherwise responded to. If you don’t live in the local area, they do offer a full online tuition option. Check it out here! </p>
