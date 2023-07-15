@@ -1,10 +1,11 @@
-import ChatGPT from '../../assets/chatgpt.jpg'
+import ChatGPT from '../../assets/chatgpt.jpg';
+import OnComputer from '../../assets/blog/onComputer.jpg'
 
 const July2023 = () => {
     return (
         <div className='page-content blog'>
             <p className='blog-author'>JULY 14, 2023 by Kris Hvattum</p>
-            <h4 className='blog-title'>Unveiling the Complex Realities of AI Integration in Private School Education</h4>
+            <h4 className='blog-title'>Unveiling the Complex Realities of AI Integration in Education</h4>
             <figure>
                 <img src={ChatGPT} alt='Cell phone displaying information about the inception of ChatGPT with a ChatGPT logo in the background' className='blog-img col-md-8' />
             </figure>
@@ -30,10 +31,14 @@ const July2023 = () => {
                         Intelligent Content Recommendations: AI algorithms can suggest relevant educational resources based on student interests and learning progress. This tailored content curation fosters engagement and encourages self-directed exploration.
                     </li>
                 </ol>
+
+                <figure>
+                <img src={OnComputer} alt='Child doing homework on laptop computer, holding pencil' className='blog-img col-md-8' />
+            </figure>
+
                 <h5>
                     Disadvantages of AI in Education
                 </h5>
-
                 <ol>
                     <li>
                         Ethical Considerations: The use of AI in education raises ethical concerns, particularly regarding data privacy and security. School leaders must prioritize transparent data practices, secure data storage, and adhere to data protection regulations to maintain trust and protect students' privacy.
