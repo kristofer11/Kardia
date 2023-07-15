@@ -8,6 +8,9 @@ import auction from '../assets/auction/building-bridges-logo-1024x1024.png';
 import whitfields from '../assets/auction/Whitfields-Compact-Logo-Final-2-x-2-4-22.jpg';
 import Hero from '../components/Hero';
 import { Timeline } from 'react-twitter-widgets';
+import { TwitterTimelineEmbed } from 'react-twitter-embed';
+
+
 
 const Auction = () => {
     return (
@@ -37,7 +40,23 @@ const Auction = () => {
             </div>
             <div className='twitter-div'>
 
-                <Timeline
+{/* USING TWITTER'S OFFICAL WIDGET FOR NOW. LEFT THE OTHERS BECAUSE IT SEEMS THERE ARE LOTS OF ISSUES EMBEDDING TIMELINE AT THE MOMENT. HOPING IT IS FIXED SOON */}
+
+                {/* <TwitterTimelineEmbed
+                    sourceType="profile"
+                    screenName="KardiaClassical"
+                    options={{
+                        height: 400,
+                        width: '100%',
+                    }}
+                /> */}
+
+                <a 
+                    class="twitter-timeline" 
+                    href="https://twitter.com/KardiaClassical?ref_src=twsrc%5Etfw">Tweets by KardiaClassical
+                </a> 
+
+                {/* <Timeline
                     dataSource={{
                         sourceType: 'profile',
                         screenName: 'KardiaClassical'
@@ -48,7 +67,7 @@ const Auction = () => {
                         chrome: 'nofooter',
                         dnt: true
                     }}
-                />
+                /> */}
 
             </div>
         </div>
