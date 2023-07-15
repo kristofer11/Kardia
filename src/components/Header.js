@@ -121,13 +121,13 @@ function Header() {
                 Fundraising
               </DropdownToggle>
               <DropdownMenu right>
-                <DropdownItem>
+                {/* <DropdownItem>
                   <NavItem>
                     <NavLink href='/auction'>
                       Annual Auction
                     </NavLink>
                   </NavItem>
-                </DropdownItem>
+                </DropdownItem> */}
                 <DropdownItem>
                   <NavItem>
                     <NavLink href='/fundraising'>
