@@ -38,19 +38,19 @@ const Auction = () => {
                     <li className='blog-link'>📄<a href='/may2021'>What Does it Mean to be a “Classical School?”</a></li>
                 </ul>
             </div>
-            <div className='twitter-div'>
 
-{/* TWITTER SEEMS TO HAVE DISABLED ABILITY TO EMBED TIMELINE */}
+{/* TWITTER SEEMS TO HAVE DISABLED ABILITY TO EMBED TIMELINE, REMOVING THIS UNTIL IT WORKS             */}
 
-                {/* <TwitterTimelineEmbed
+            {/* <div className='twitter-div'>
+                <TwitterTimelineEmbed
                     sourceType="profile"
                     screenName="KardiaClassical"
                     options={{
                         height: 400,
                         width: '100%',
                     }}
-                /> */}
-            </div>
+                />
+            </div> */}
         </div>
     )
 }
