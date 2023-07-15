@@ -40,35 +40,16 @@ const Auction = () => {
             </div>
             <div className='twitter-div'>
 
-{/* USING TWITTER'S OFFICAL WIDGET FOR NOW. LEFT THE OTHERS BECAUSE IT SEEMS THERE ARE LOTS OF ISSUES EMBEDDING TIMELINE AT THE MOMENT. HOPING IT IS FIXED SOON */}
+{/* TWITTER SEEMS TO HAVE DISABLED ABILITY TO EMBED TIMELINE */}
 
-                <TwitterTimelineEmbed
+                {/* <TwitterTimelineEmbed
                     sourceType="profile"
                     screenName="KardiaClassical"
                     options={{
                         height: 400,
                         width: '100%',
                     }}
-                />
-
-                {/* <a 
-                    class="twitter-timeline" 
-                    href="https://twitter.com/KardiaClassical?ref_src=twsrc%5Etfw">Tweets by KardiaClassical
-                </a>  */}
-
-                {/* <Timeline
-                    dataSource={{
-                        sourceType: 'profile',
-                        screenName: 'KardiaClassical'
-                    }}
-                    options={{
-                        height: '400',
-                        maxWidth: '100%',
-                        chrome: 'nofooter',
-                        dnt: true
-                    }}
                 /> */}
-
             </div>
         </div>
     )
