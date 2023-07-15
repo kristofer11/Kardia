@@ -189,6 +189,13 @@ function Header() {
                 <DropdownItem divider />
                 <DropdownItem>
                   <NavItem>
+                    <NavLink className='navlink-blog' href='/july2023'>
+                      AI in Education
+                    </NavLink>
+                  </NavItem>
+                </DropdownItem>
+                <DropdownItem>
+                  <NavItem>
                     <NavLink className='navlink-blog' href='/july2022'>
                       Martial Arts 
                     </NavLink>

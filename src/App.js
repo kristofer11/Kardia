@@ -26,6 +26,7 @@ import July2021 from './pages/blogs/July2021';
 import June2021 from './pages/blogs/June2021';
 import May2021 from './pages/blogs/May2021';
 import June2022Siblings from './pages/blogs/June2022Siblings';
+import July2023 from './pages/blogs/July2023'
 import Blog from './pages/Blog';
 
 function App() {
@@ -58,6 +59,7 @@ function App() {
           <Route path='/june2021' element={<June2021 />} />
           <Route path='/may2021' element={<May2021 />} />
           <Route path='/june2022siblings' element={<June2022Siblings />} />
+          <Route path='/july2023' element={<July2023 />} />
       </Routes>
       <Footer />
     </div>
