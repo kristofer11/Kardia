@@ -182,7 +182,7 @@ function Header() {
               <DropdownItem>
                   <NavItem>
                     <NavLink className='navlink-blog' href='/blog' >
-                      <strong>Our Blog </strong>
+                      <strong>Our Blog/Twitter </strong>
                     </NavLink>
                   </NavItem>
                 </DropdownItem>

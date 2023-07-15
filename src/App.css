@@ -504,6 +504,10 @@ figure {
         font-size: 11vw !important;
         margin-block: 0rem;
     }
+
+    .twitter-div {
+        padding: 1rem;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -523,7 +527,7 @@ figure {
         width: 100vw;
         max-width: 100%;
         padding-inline: 1rem;
-        margin: 0 0 2rem 0;
+        margin: 0 0 0.5rem 0;
     }
 
     .hero-text {
@@ -588,4 +592,11 @@ figure {
     .info-block h3 {
         font-size: 1.75rem;
     }
+}
+
+.twitter-div {
+    max-width: 100%;
+    overflow-x: auto;
+    text-align: center;
+    padding: 2rem 4rem;
 }
