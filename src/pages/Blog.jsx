@@ -42,19 +42,19 @@ const Auction = () => {
 
 {/* USING TWITTER'S OFFICAL WIDGET FOR NOW. LEFT THE OTHERS BECAUSE IT SEEMS THERE ARE LOTS OF ISSUES EMBEDDING TIMELINE AT THE MOMENT. HOPING IT IS FIXED SOON */}
 
-                {/* <TwitterTimelineEmbed
+                <TwitterTimelineEmbed
                     sourceType="profile"
                     screenName="KardiaClassical"
                     options={{
                         height: 400,
                         width: '100%',
                     }}
-                /> */}
+                />
 
-                <a 
+                {/* <a 
                     class="twitter-timeline" 
                     href="https://twitter.com/KardiaClassical?ref_src=twsrc%5Etfw">Tweets by KardiaClassical
-                </a> 
+                </a>  */}
 
                 {/* <Timeline
                     dataSource={{
