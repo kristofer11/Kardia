@@ -11,7 +11,7 @@ const Calendar = () => {
         <h2 className='text-center' style={{fontSize: '3rem'}}>Calendar</h2>
         
             <p >
-            Here is the calendar for the 2023-2024 School Year! Don’t forget, we are a small school, so dates may be subject to change. However, We will give plenty of notice if anything does change. Whenever there are changes to the calendar, it will be updated here as well.<br /><strong>Click on the calendar below to <a href={Calendar23} download='2023-24 Kardia Calendar.pdf'>download</a>.</strong>
+            Here is the calendar for the 2023-2024 School Year! Please keep in mind that dates are subject to change, however, we will give plenty of notice if anything needs to be adjusted. Whenever there are changes to the calendar, it will be updated here as well.<br /><strong>Click on the calendar below to <a href={Calendar23} download='2023-24 Kardia Calendar.pdf'>download</a>.</strong>
             </p>  
         <div className='calendar-div'>
     
