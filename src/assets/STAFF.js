@@ -68,62 +68,55 @@ export const STAFF = [
     },
     {
         id: 7,
-        name: 'Veronica Huffines',
-        title: 'Art Teacher',
-        bio: 'She is the product of 2 generations of teachers and art teachers. Veronica grew up talking about education theory and art education theory around the dinner table. In school, she majored in technical theater, emphasizing set and lighting design, before graduating with a Bachelor of Science in Civil Engineering. Since then, she has studied art, focusing on sketches, pencil and ink, and watercolor. She has been actively teaching children since she was 16. Veronica and her husband have always homeschooled their two children. She teaches art as a way of life and a way of looking at the world, and not just a hobby.',
-        image: veronica
-    },
-    {
-        id: 8,
         name: 'Cameron Kyle',
         title: 'PE Teacher (Martial Arts Class)',
         bio: "Cameron Kyle is a Head Instructor at Active Martial Arts in Mill Creek. He knows that as a martial arts instructor with extensive experience training kids, there is nothing better than seeing them grow firsthand. But more important than the martial arts skills they learn… are the personal skills they develop and carry for life. Because martial arts is so much more than just kicking and punching, and getting the next colorful belt. It’s about developing confidence, discipline, character, focus, and respect. With every class we teach, your kids are growing in mind, body, and character. That’s because martial arts provides instant positive feedback. Through learning to focus on the core moves, they develop discipline and respect. They can instantly see and feel a difference, making them destined to build confidence, self-awareness, and self-respect. And of course, it’s a ton of FUN! That’s why he loves teaching martial arts to kids in the community, and why he knows your kids are going to LOVE training.",
         image: cameron
     },
     {
-        id: 9,
+        id: 8,
         name: 'Andrew Ehli',
         title: 'Band Teacher',
         bio: 'Andrew graduated from Seattle Pacific University with a B.A. in Music Education. He then went on to teach elementary, middle, and high school bands in the Bellevue School District. With his high school students, he was able to attend many festivals and competitions with both the jazz and marching bands. Andrew is excited to share his love of music with the students at Kardia!',
         image: andrew
     },
     {
-        id: 10,
+        id: 9,
         name: 'Katie Lemaire',
         title: 'Office Administrator',
         bio: 'Katie took office admin classes at Edmonds Community College, and has worked at several medical offices doing everything from medical records to manning the front desk. She worked as a Health Unit Coordinator at Providence Hospital in the heart/critical care unit for almost 13 years. Katie took some time off work to raise her two rambunctious boys. They started attending a classical school when her oldest started 1st grade and have been attending a classical school ever since. She started working part-time when both boys were in school as an Office Admin for Cornerstone Academy and now she is here at Kardia! She loves working in a school environment. “The teachers at Kardia are amazing! Watching our kids grow academically and spiritually has been great to see.”',
         image: katie
     },
     {
-        id: 11,
+        id: 10,
         name: 'Ashlea Hayter',
         title: 'Financial Director & Board Treasurer',
         bio: 'Ashlea has an accounting degree from Seattle Pacific University. Before taking time off to raise her daughters Ashlea worked for the regional CPA firm, Peterson Sullivan (acquired in 2019 by BDO), as a senior accountant for over 8 years. Her primary industries of audit expertise were real estate investments and private schools throughout the Pacific Northwest. Ashlea is also the Coordinator of Antioch MOPS in Kirkland. She has two girls enrolled at Kardia and one future student. Ashlea and her husband Chris feel a Classical education provides the academic excellence and moral framework that will help prepare their children for a meaningful future.',
         image: ashlea
     },
     {
-        id: 12,
+        id: 11,
         name: 'Kris Hvattum',
         title: 'Chairman of the Board & Web Developer',
         bio: 'Kris has been teaching since 2016 and has really enjoyed learning more about the classical method. He has two children who currently attend Kardia Classical School. He has four years of experience in classical education and has worked in public and private schools. Kris has a bachelors in Biblical Literature and a Masters in Teaching. He is our video lesson Logic teacher, as well as the Chairman of the Board of Directors.',
         image: kris
     },
     {
-        id: 13,
+        id: 12,
         name: 'Adrian Lemaire',
         title: 'Board Secretary',
         bio: "Adrian is familiar with small private schools as he attended one from pre-kindergarten through graduation in 1999 from a local Snohomish County private school. After graduation, he obtained his two-year Associate of Arts and Science (AAS) in Criminal Justice from Shoreline Community College. He also recently received his two-year Associate of Technical Arts (ATA) in Network Technology from Edmonds Community College. Over the years he has worked for Crista Ministries, many years in customer service jobs, and finally landed in IT around the time his first son was born. Adrian currently works for the City of Everett. He has two sons attending Kardia Classical School. Adrian feels that Classical education provides the learning environment and curriculum that is missing in many of today\’s schools.",
         image: adrian
     },
     {
-        id: 14,
+        id: 13,
         name: 'Deborah Jacobson',
         title: 'Board Member',
         bio: 'Deborah is passionate about education, children, and living a life committed to Christ. She currently works for the Foundation for Edmonds School District as their Operations and Communications Manager. She has years of experience in both the non-profit and education sector, having previously worked in a preschool and for various churches and nonprofits. Deborah is an ex-pat from the UK, obtaining her Christian Ministry Certificate with Children\’s ministry internship, and later, her Bachelor of Arts in English Literature and Legal Studies in Canada. Deborah has now settled in the Pacific Northwest with her husband and young daughter.',
         image: deborah
     },
     {
-        id: 15,
+        id: 14,
         name: 'Tracy Whitfield',
         title: 'Co-Founder & Video Lesson Teacher',
         bio: 'Tracy Whitfield is a co-founder of Kardia Classical School, and has been teaching since 2009, most of those years in classical, Christian education. Having graduated from Hillsdale College, Tracy is passionate about the value of classical education. After teaching in the public school system, Tracy found that she wanted to be able to share Christ with her students and mentor them. After leaving the public school system, Tracy eagerly began teaching classical education. She has taught at Cornerstone Academy, Kardia Classical School, and The Bear Creek School. She is a video lesson teacher for upper elementary grammar, cursive and manuscript handwriting, 3rd through 5th-grade math, and more.',
