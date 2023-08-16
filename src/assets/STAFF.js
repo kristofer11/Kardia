@@ -6,11 +6,10 @@ import veronica from './staff-photos/HuffinesVeronica.jpg';
 import cameron from './staff-photos/image-1152x1536.jpeg';
 import katie from './staff-photos/LemaireKatie.jpg';
 import ashlea from './staff-photos/HayterAshlea.jpg';
-import kris from './staff-photos/kris1.jpg';
+import kris from './staff-photos/IMG_5246.png';
 import adrian from './staff-photos/Adrian-1-1152x1536.jpg';
 import deborah from './staff-photos/Debs-Jacobsen-1366x2048 2.jpg';
 import tracyW from './staff-photos/tracy.jpg';
-import courtney from './staff-photos/courtney-1217x1536.jpg'
 import sara from './staff-photos/Ehli.jpg';
 import andrew from './staff-photos/andrew.png';
 import laura from './staff-photos/laura.png';
