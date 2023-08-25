@@ -1,8 +1,8 @@
 import calendar from '../assets/2022-2023-calendar.png'
 import proposedCalendar from '../assets/2023-2024-Tentative-Calendar.png';
 import Calendar22 from '../assets/downloads/22-23Calendar.pdf';
-import CalendarImg2023 from '../assets/Calendar 2023-2024.png'
-import Calendar23 from '../assets/downloads/Calendar-2023-2024.pdf';
+import CalendarImg2023 from '../assets/Updated Calendar 2023-2024.png';
+import Calendar23 from '../assets/downloads/Updated Calendar 2023-2024.pdf';
 
 const Calendar = () => {
   return (
