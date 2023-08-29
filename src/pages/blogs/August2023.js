@@ -48,7 +48,10 @@ const August2023 = () => {
                     </li>
                 </ol>
                 <p>In conclusion, "The Lost Tools of Learning" by Dorothy Sayers continues to be an influential work that challenges traditional educational paradigms and offers a roadmap for a more effective and meaningful approach to learning. Its enduring relevance lies in its promotion of critical thinking, integration of knowledge, and the cultivation of well-rounded individuals. As educators, parents, and students continue to seek innovative ways to navigate the complex landscape of education, Sayers' essay remains a beacon of wisdom and a source of inspiration.</p>
-                <figure>
+
+                <a href='https://www.pccs.org/wp-content/uploads/2016/06/LostToolsOfLearning-DorothySayers.pdf' target='_blank' > Read <em>The Lost Tools of Learning</em></a>
+
+                <figure className='py-3'>
                     <img src={LostToolsCover} alt='Cover of The Lost Tools of Learning by Dorothy Sayers, an important work in the foundations and promotion of Classical Christian private schools.' className='blog-img col-md-8' />
                 </figure>
                 <p>
