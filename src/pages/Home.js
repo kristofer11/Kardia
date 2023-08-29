@@ -38,25 +38,7 @@ const Home = () => {
                 <img src={jogathon}
                     className='col-12 my-4' alt='Smiling children with PE teacher under an arch of balloons.'
                 />
-
-                <p>
-                    Our goal is to partner with parents to make the transition to homeschooling an easier one. With support from our certified teachers, you will receive weekly lesson plans, video lessons for more difficult subjects, in-person classes twice a week, monthly parent check-ins, report cards, and/or a standardized testing opportunity for reporting to the state, and more! We would love the opportunity to partner with you on your new endeavor to provide your child with a Classical Christian Education.</p>
-                <p> Want to see some sample videos? Visit our YouTube channel <a href='https://www.youtube.com/playlist?list=PL19OI_6BLPETGaEhB5ALzP9l2PIKPlcKz' target='_blank' className='you-tube-link'>HERE</a> to view a selection of our digital content.
-                </p>
-            </div>
-            <div className='page-content'>
-
-
-
-                <div id='whatIsClassical' style={{ borderTop: '2px solid black', borderBottom: '2px solid black' }} className='info-block'>
-                    <h3 className='text-center pt-5'>What is Classical Christian Education?</h3>
-                    <p>                         Classical Christian schools use the children’s God-given strengths at each stage of growth to help them learn; young children enjoy memorizing, singing, and rhymes, so a solid foundation is laid in each subject of study at this age; junior high students are inquisitive, so we develop their ability to reason and discern the truth; high school students want to talk, so we teach them how to present their ideas persuasively. The result is a graduate who knows what they believe and why and can positively impact the community around them.<br /><strong>Learn more by visiting the <a href=' https://classicalchristian.org/what-is-cce/' target='_blank'>ACCS website.</a></strong></p>
-                </div>
-                <div id='whatIsClassical' style={{ borderBottom: '2px solid black', marginTop: '0' }} className='info-block'>
-                    <h3 className='text-center pt-4'>Our Mission</h3>
-                    <p>Kardia Classical School aims to provide parents with the tools that they need to classically educate their children rooted in a Christian worldview. Together, parents and teachers will nurture students’ appreciation of truth, goodness, and beauty as they strive for excellence, while guiding them to live purposefully in the service of God and man.</p>
-                </div>
-                <div id='whatIsClassical' style={{ borderBottom: '2px solid black', marginTop: '0', width: '100%' }} className='info-block'>
+                <div id='whatIsClassical' style={{ borderTop: '2px solid black', borderBottom: '2px solid black', marginTop: '1rem', width: '100%' }} className='info-block'>
                     <h3 className='text-center pt-4'>Learn More About <em>Kardia</em></h3>
                     <div className='home-link-div'>
 
@@ -88,6 +70,22 @@ const Home = () => {
 
                     </div>
                 </div>
+                <p>
+                    <strong>Our goal </strong>is to partner with parents to make the transition to homeschooling an easier one. With support from our certified teachers, you will receive weekly lesson plans, video lessons for more difficult subjects, in-person classes twice a week, monthly parent check-ins, report cards, and/or a standardized testing opportunity for reporting to the state, and more! We would love the opportunity to partner with you on your new endeavor to provide your child with a Classical Christian Education.</p>
+                <p> <strong>Want to see some sample videos?</strong> Visit our YouTube channel <a href='https://www.youtube.com/playlist?list=PL19OI_6BLPETGaEhB5ALzP9l2PIKPlcKz' target='_blank' className='you-tube-link'>HERE</a> to view a selection of our digital content.
+                </p>
+            </div>
+            <div className='page-content' style={{marginTop: 0}}>
+
+                <div id='whatIsClassical' style={{ borderTop: '2px solid black', borderBottom: '2px solid black', marginTop: 0}} className='info-block'>
+                    <h3 className='text-center pt-4'>What is Classical Christian Education?</h3>
+                    <p>                         Classical Christian schools use the children’s God-given strengths at each stage of growth to help them learn; young children enjoy memorizing, singing, and rhymes, so a solid foundation is laid in each subject of study at this age; junior high students are inquisitive, so we develop their ability to reason and discern the truth; high school students want to talk, so we teach them how to present their ideas persuasively. The result is a graduate who knows what they believe and why and can positively impact the community around them.<br /><strong>Learn more by visiting the <a href=' https://classicalchristian.org/what-is-cce/' target='_blank'>ACCS website.</a></strong></p>
+                </div>
+                <div id='whatIsClassical' style={{ marginTop: '0' }} className='info-block'>
+                    <h3 className='text-center pt-1'>Our Mission</h3>
+                    <p>Kardia Classical School aims to provide parents with the tools that they need to classically educate their children rooted in a Christian worldview. Together, parents and teachers will nurture students’ appreciation of truth, goodness, and beauty as they strive for excellence, while guiding them to live purposefully in the service of God and man.</p>
+                </div>
+
             </div>
         </div>
     )
