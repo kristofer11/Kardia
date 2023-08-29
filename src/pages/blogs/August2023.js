@@ -51,9 +51,9 @@ const August2023 = () => {
 
                 <a href='https://www.pccs.org/wp-content/uploads/2016/06/LostToolsOfLearning-DorothySayers.pdf' target='_blank' > Read <em>The Lost Tools of Learning</em></a>
 
-                <figure className='py-3'>
+                {/* <figure className='py-3'>
                     <img src={LostToolsCover} alt='Cover of The Lost Tools of Learning by Dorothy Sayers, an important work in the foundations and promotion of Classical Christian private schools.' className='blog-img col-md-8' />
-                </figure>
+                </figure> */}
                 <p>
                     Written by – Kris Hvattum – Board Member
                 </p>
