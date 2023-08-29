@@ -14,7 +14,7 @@ import sara from './staff-photos/Ehli.jpg';
 import andrew from './staff-photos/andrew.png';
 import laura from './staff-photos/laura.png';
 import bianca from './staff-photos/bianca.png';
-import deborahC from './staff-photos/DeborahClingan.jpg'
+import deborahC from './staff-photos/DeborahClingan.png';
 
 export const STAFF = [
     {
