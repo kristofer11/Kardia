@@ -36,7 +36,7 @@ const Home = () => {
                 </p>
 
                 <img src={jogathon}
-                    className='col-12 my-4' alt='Smiling children with PE teacher under an arch of balloons.'
+                    className='col-12 col-lg-8 my-4' alt='Smiling children with PE teacher under an arch of balloons.'
                 />
                 <div id='whatIsClassical' style={{ borderTop: '2px solid black', borderBottom: '2px solid black', marginTop: '1rem', width: '100%' }} className='info-block'>
                     <h3 className='text-center pt-4'>Learn More About <em>Kardia</em></h3>
@@ -75,9 +75,9 @@ const Home = () => {
                 <p> <strong>Want to see some sample videos?</strong> Visit our YouTube channel <a href='https://www.youtube.com/playlist?list=PL19OI_6BLPETGaEhB5ALzP9l2PIKPlcKz' target='_blank' className='you-tube-link'>HERE</a> to view a selection of our digital content.
                 </p>
             </div>
-            <div className='page-content' style={{marginTop: 0}}>
+            <div className='page-content' style={{ marginTop: 0 }}>
 
-                <div id='whatIsClassical' style={{ borderTop: '2px solid black', borderBottom: '2px solid black', marginTop: 0}} className='info-block'>
+                <div id='whatIsClassical' style={{ borderTop: '2px solid black', borderBottom: '2px solid black', marginTop: 0 }} className='info-block'>
                     <h3 className='text-center pt-4'>What is Classical Christian Education?</h3>
                     <p>                         Classical Christian schools use the children’s God-given strengths at each stage of growth to help them learn; young children enjoy memorizing, singing, and rhymes, so a solid foundation is laid in each subject of study at this age; junior high students are inquisitive, so we develop their ability to reason and discern the truth; high school students want to talk, so we teach them how to present their ideas persuasively. The result is a graduate who knows what they believe and why and can positively impact the community around them.<br /><strong>Learn more by visiting the <a href=' https://classicalchristian.org/what-is-cce/' target='_blank'>ACCS website.</a></strong></p>
                 </div>

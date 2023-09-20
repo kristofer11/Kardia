@@ -229,7 +229,15 @@ a.navlink-blog {
     width: 70%;
     max-width: 100vw;
     margin: 1rem 12vw 2rem 12vw;
-    font-family: var(--main-font-sans)
+    font-family: var(--main-font-sans);
+}
+
+.page-content h2{
+    font-size: 2.9rem;
+}
+
+.page-content p{
+    font-size: 1.33rem;
 }
 
 .page-content img {
@@ -243,7 +251,7 @@ a.navlink-blog {
 }
 
 .info-block p {
-    font-size: 1.5vw;
+    font-size: 1.33rem;
     text-align: center;
 }
 
@@ -541,6 +549,7 @@ figure {
     background-color: var(--alt-bg-color);
     border-radius: 5px;
     padding-inline: 1rem;
+    font-size: 1.4rem;
 }
 
 .contact-link a:hover {
