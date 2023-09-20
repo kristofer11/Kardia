@@ -18,6 +18,13 @@
     height: 100vh;
 }
 
+.header-div{
+    margin-left: 14vw;
+    margin-right: 11vw;
+    display: flex;
+    justify-content: space-between;
+}
+
 body {
     margin: 0;
 }
@@ -55,9 +62,14 @@ a.navlink-blog {
 }
 
 .navbarBrandDiv {
-    width: 100%;
+    width: fit-content;
     background-color: var(--main-bg-color);
 }
+
+/* .navbarBrandDiv {
+    width: 100%;
+    background-color: var(--main-bg-color);
+} */
 
 .navbarBrandText {
     margin-top: 33px;
@@ -575,6 +587,11 @@ figure {
     .nav {
         flex-direction: column !important;
     }
+    .header-div{
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -601,6 +618,9 @@ figure {
     .info-block h3 {
         font-size: 1.75rem;
     }
+    .header-div{
+        display: block;
+    }
 }
 
 .twitter-div {
@@ -608,4 +628,10 @@ figure {
     overflow-x: auto;
     text-align: center;
     padding: 2rem 4rem;
+}
+
+@media only screen and (max-width: 1555px){
+    .header-div{
+        margin-right: 0;
+    }
 }

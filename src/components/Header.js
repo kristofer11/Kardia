@@ -21,7 +21,7 @@ function Header() {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <>
+    <div className='header-div'>
       <div className='navbarBrandDiv d-none d-lg-block'>
         <NavbarBrand className='navbarBrand' href='/'>
           <img src={Logo} width='144' className='float-start' />
@@ -245,14 +245,14 @@ function Header() {
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
-            <a href='/'>
-              <img width='50' src={Logo} className='ms-md-5 d-none d-lg-inline' />
-            </a>
+            {/* <a href='/'>
+              <img width='50' src={Logo} className='ms-md-5 d-none d-xl-inline' />
+            </a> */}
 
           </Nav>
         </Collapse>
       </Navbar>
-    </>
+    </div>
 
   );
 }
