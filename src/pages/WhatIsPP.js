@@ -59,7 +59,7 @@ const WhatIsPP = () => {
                 <p style={{ textAlign: 'left' }}>
                     Education is a privilege and we want our students to see it as such. Parents will educate their children at home while modeling a passion for learning to help create a lifelong learner in each of their children.
                 </p>
-                <img src={legos} className='col-12' alt='Several elementary-age students being creative with legos' />
+                <img src={legos} className='col-12 col-lg-8' alt='Several elementary-age students being creative with legos' />
             </div>
         </div>
     )

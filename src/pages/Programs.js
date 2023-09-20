@@ -28,20 +28,20 @@ const Programs = () => {
                         Kardia Classical School is a member of the Association of Classical Christian Schools <a href='https://classicalchristian.org/https://classicalchristian.org/' target='_blank'>(ACCS)</a>. Please see the teacher job description (see document section below) for more information about daily expectations.
                     </p>
                 </div>
-                <img src={sitting} className='col-12' alt='Students in uniform sitting on floor posing for photo.' />
+                <img src={sitting} className='col-12 col-lg-8' alt='Students in uniform sitting on floor posing for photo.' />
                 <div id='whatIsClassical' style={{ borderTop: '2px solid black', borderBottom: '2px solid black' }} className='info-block'>
                     <h3 className='text-center pt-4'>Pre-Kindergarten</h3>
                     <p>Kardia Classical School offers a Pre-Kindergarten program designed to meet the needs of the child who is age four and potty trained by August 31. The goal is to provide a loving and nurturing Christian environment where children can grow and progress in all areas for the glory of God. The developmentally centered curriculum incorporates a variety of techniques, resources, materials and hands-on experiences in order to address different learning styles. Children develop a love for learning and school through hands-on experiences, discussions and explorations.</p>
                     <p>The Pre-Kindergarten curriculum prepares a child for kindergarten and is structured to be fun, yet challenging. The program involves active learning and is devised to address the needs of the whole child. Activities and materials engage the students in social, physical, emotional and intellectual development.</p>
                 </div>
                 
-                <img src={atHome} className='col-12' alt='Three students of various ages working on school work at kitchen table.' />
+                <img src={atHome} className='col-12 col-lg-8' alt='Three students of various ages working on school work at kitchen table.' />
                 <div id='whatIsClassical' style={{ borderTop: '2px solid black', borderBottom: '2px solid black' }} className='info-block'>
                     <h3 className='text-center pt-4'>Kardia at Home</h3>
                     <p>An additional option for the 2022-2023 school year is our guided at-home learning plan. “Kardia at Home” is a four-day guided homeschool program. There will be video lessons for more complex subjects, weekly lesson plans, a curriculum list for easy purchasing, and a monthly online or over-the-phone parent-teacher check-in.</p>
                 </div>
                
-                <img src={tuesday} className='col-12' alt='Two girls creating christmas craft with pipe cleaners and beads.' />
+                <img src={tuesday} className='col-12 col-lg-8' alt='Two girls creating christmas craft with pipe cleaners and beads.' />
                 <div id='whatIsClassical' style={{ borderTop: '2px solid black'}} className='info-block'>
                     <h3 className='text-center pt-4'>"Tuesday Camp" - Enrichment Half Day</h3>
                     <p>This class will be held on Tuesdays and there are two session options, morning or afternoon. The morning session will be focused on Kindergarten through third-grade phonics and math. This is a great opportunity for extra instruction in these crucial topics. Our afternoon session will have a different overall theme each quarter and will include all kinds of STEAM activities. STEAM is science, technology, engineering, art, and music. You can sign up for one or both time slots if your child is in K-3rd (AM or PM), or just the PM slot if they are older.</p>
@@ -54,7 +54,7 @@ const Programs = () => {
                 </div>
                 <div id='whatIsClassical' style={{ borderTop: '2px solid black', borderBottom: '2px solid black' }} className='info-block'>
                     <h3 className='text-center pt-4'><em>A La Carte</em> Options</h3>
-                    <img src={alacarte} className='col-12' style={{ marginTop: '2rem', marginBottom: '2rem' }} alt='Chart showing a la carte options for Kardia programs' />
+                    <img src={alacarte} className='col-12 col-lg-8' style={{ marginTop: '2rem', marginBottom: '2rem' }} alt='Chart showing a la carte options for Kardia programs' />
                     <p>Kardia Classical School is starting to offer individual classes for math, phonics and grammar. Each class will come with a set of daily or weekly videos, as well as instructions on how the class will operate. Parents will be in charge of purchasing some materials for each class. Please see individual class descriptions below.</p>
                     <h5>
                         <strong>Saxon Math Grades 1 & 2: </strong>
