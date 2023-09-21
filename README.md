@@ -1,7 +1,7 @@
 # Kardia Classical School Site
 This site was built using ReactJS for Kardia Classical School in Snohomish, WA. The school contracted me to update their site and make it more snazzy and user-friendly. 
 
-[Visit Kardia Classical School Website](kardiaclassical.org)
+[Visit Kardia Classical School Website](https://kardiaclassical.org/)
 
 ![Kardia Classical Website Screenshot](./src/assets/screenshot.png)
 
