@@ -1,0 +1,35 @@
+.jogathon.page-content .info-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 777px;
+    max-width: 100%;
+}
+
+.jogathon.page-content .info-block img {
+    margin-block: 2rem;
+}
+
+.jogathon.page-content a {
+    text-decoration: none;
+    
+
+}
+
+.jogathon.page-content a div {
+    color: var(--main-light-text-color);
+    background-color: #C6E600;
+    padding: 0.77rem;
+    border-radius: 11px;
+    font-weight:900;
+    box-shadow: 0px 0px 7px 2px black;
+    margin-block: 1rem;
+    font-size: 1.5rem;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    
+}
+
+.jogathon.page-content a div:hover {
+    background-color: var(--link-hover-bg-color);
+    color: var(--main-light-text-color)
+}

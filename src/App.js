@@ -17,6 +17,7 @@ import Tuition from './pages/Tuition';
 import Auction from './pages/Auction';
 import Fundraising from './pages/Fundraising';
 import Donations from './pages/Donations';
+import Jogathon from './pages/Jogathon'
 import Sycamore from './pages/Sycamore.js';
 import Uniforms from './pages/Uniforms';
 import Calendar from './pages/Calendar';
@@ -49,6 +50,7 @@ function App() {
           <Route path='/messagesent' element={<MessageSent />} />
           <Route path='/auction' element={<Auction />} />          
           <Route path='/fundraising' element={<Fundraising />} />
+          <Route path='/jogathon' element={<Jogathon />} />
           <Route path='/donations' element={<Donations />} />
           <Route path='/sycamore' element={<Sycamore />} />
           <Route path='/uniforms' element={<Uniforms />} />
