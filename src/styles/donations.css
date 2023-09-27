@@ -1,0 +1,8 @@
+.donationLink img {
+    box-shadow: unset;
+}
+
+.linkInvite {
+    color: var(--nav-link-hover-color);
+    font-weight: bold;
+}
