@@ -13,7 +13,8 @@ import {
     DropdownItem,
     NavbarText
 } from 'reactstrap';
-import Logo from '../assets/logo__1_-removebg-preview.png'
+import Logo from '../assets/logo__1_-removebg-preview.png';
+import '../styles/headerDiv.css'
 
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +23,7 @@ function Header() {
 
     return (
         <div className='header-div'>
-            <div className='navbarBrandDiv d-none d-lg-block'>
+            <div className='navbarBrandDiv'>
                 <NavbarBrand className='navbarBrand' href='/'>
                     <img src={Logo} width='144' className='float-start' />
                     <div className='navbarBrandText'>
@@ -34,14 +35,14 @@ function Header() {
 
             <Navbar light sticky='top' expand='lg'>
                 <a href='/' className='smallNavbarBrand'>
-                    <img src={Logo} className='me-lg-5 d-lg-none smallNavbarBrandLogo' />
+                    <img src={Logo} className='smallNavbarBrandLogo' />
                     <div className='smallNavbarBrandText'>
-                        <h1 className='d-lg-none'>Kardia Classical</h1>
-                        <h1 className='d-lg-none'>School</h1>
+                        <h1>Kardia Classical</h1>
+                        <h1 >School</h1>
                     </div>
                 </a>
                 <NavbarToggler onClick={toggle} />
-                <Collapse isOpen={isOpen} navbar>
+                <Collapse className='collapse' isOpen={isOpen} navbar>
                     <Nav>
                         <UncontrolledDropdown nav inNavbar>
                             <DropdownToggle nav caret>

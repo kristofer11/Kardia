@@ -18,14 +18,6 @@
     height: 100vh;
 }
 
-.header-div{
-    margin-left: 14vw;
-    margin-right: 11vw;
-    display: flex;
-    justify-content: space-between;
-    padding-block: 1rem;
-}
-
 body {
     margin: 0;
 }
@@ -169,7 +161,7 @@ a.navlink-blog {
 
 .homeOverlayText {
     color: var(--main-light-text-color);
-    font-size: 6rem;
+    font-size: 5rem;
     backdrop-filter: blur(.75px);
 }
 
@@ -533,10 +525,6 @@ figure {
 }
 
 @media only screen and (max-width: 768px) {
-    .nav {
-        flex-direction: column !important;
-    }
-
     .homeOverlayText {
         font-size: 10vw !important;
     }
@@ -585,20 +573,9 @@ figure {
     max-width: 700px;
 }
 
-@media only screen and (max-width: 992px) {
-    .nav {
-        flex-direction: column !important;
-    }
-    .header-div{
-        display: block;
-        margin-left: 0;
-        margin-right: 0;
-    }
-}
-
 @media only screen and (max-width: 1200px) {
     .homeOverlayText {
-        font-size: 8vw;
+        font-size: 7vw;
     }
 
     .card-text {
@@ -620,20 +597,13 @@ figure {
     .info-block h3 {
         font-size: 1.75rem;
     }
-    .header-div{
-        display: block;
-    }
 }
+
+
 
 .twitter-div {
     max-width: 100%;
     overflow-x: auto;
     text-align: center;
     padding: 2rem 4rem;
-}
-
-@media only screen and (max-width: 1555px){
-    .header-div{
-        margin-right: 0;
-    }
 }
