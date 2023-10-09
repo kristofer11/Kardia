@@ -197,6 +197,13 @@ function Header() {
                                 <DropdownItem divider />
                                 <DropdownItem>
                                     <NavItem>
+                                        <NavLink className='navlink-blog' href='/october2023'>
+                                            Screen Time
+                                        </NavLink>
+                                    </NavItem>
+                                </DropdownItem>
+                                <DropdownItem>
+                                    <NavItem>
                                         <NavLink className='navlink-blog' href='/august2023'>
                                             The Lost Tools of Learning
                                         </NavLink>
