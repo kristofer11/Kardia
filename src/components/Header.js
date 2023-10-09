@@ -186,11 +186,11 @@ function Header() {
                             <DropdownToggle nav caret>
                                 Blog
                             </DropdownToggle>
-                            <DropdownMenu right>
+                            <DropdownMenu right className='blog-menu'>
                                 <DropdownItem>
                                     <NavItem>
                                         <NavLink className='navlink-blog' href='/blog' >
-                                            <strong>Our Blog</strong>
+                                            <strong>Kardia Blog</strong>
                                         </NavLink>
                                     </NavItem>
                                 </DropdownItem>
