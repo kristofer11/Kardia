@@ -7,7 +7,7 @@ const October2023 = () => {
             <p className='blog-author'>October 9, 2023 by Lacey Hvattum</p>
             <h4 className='blog-title'>Navigating Screen Time: Striking the Right Balance for Our Children </h4>
             <figure>
-                <img src={Tablet} alt='Child sitting at counter looking at a tablet with a beverage sitting next to him.' className='blog-img col-md-7 col-9' />
+                <img src={Tablet} alt='Child sitting at counter looking at a tablet with a beverage sitting next to him.' className='blog-img col-md-5 col-9' />
             </figure>
 
             <div className='blog-content'>
