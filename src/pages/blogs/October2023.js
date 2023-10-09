@@ -12,7 +12,7 @@ const October2023 = () => {
 
             <div className='blog-content'>
                 <p>
-                In today's fast-paced, tech-driven world, screen time management has become a significant concern for parents and educators. As we navigate the digital age, it's crucial to find a balanced approach that upholds our values and educational principles. In this article, we'll delve into the art of nurturing wisdom while managing screen time for our children. Many parents, including myself, often struggle with where to draw the line when it comes to our children's technology use. We'll explore some key challenges and offer general tips for addressing them.
+                    In today's fast-paced, tech-driven world, screen time management has become a significant concern for parents and educators. As we navigate the digital age, it's crucial to find a balanced approach that upholds our values and educational principles. In this article, we'll delve into the art of nurturing wisdom while managing screen time for our children. Many parents, including myself, often struggle with where to draw the line when it comes to our children's technology use. We'll explore some key challenges and offer general tips for addressing them.
                 </p>
                 <h5><strong>The Digital Dilemma</strong></h5>
                 <p>Screens are ubiquitous, offering both incredible opportunities and potential pitfalls for our children's development. As parents, we encounter the following challenges:</p>
@@ -29,7 +29,7 @@ const October2023 = () => {
                     </li>                    <li>
                         <p><strong>Social Skills</strong>: Too much screen time can limit face-to-face interactions, hindering the development of social skills and the art of conversation.</p>
                     </li>
-                    
+
                 </ol>
 
 
