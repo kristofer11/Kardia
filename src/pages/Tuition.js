@@ -14,7 +14,6 @@ const Tuition = () => {
                 <p >
                     Visit our <a href='/Programs'>Program Options</a> page to see all of the options for the 2023-2024 school year.
                 </p>
-                <img src={Tuesday} className='col-12' alt='Chart showing costs for half-day enrichment program' />
             </div>
         </div>
     )
