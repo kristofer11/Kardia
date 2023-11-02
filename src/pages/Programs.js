@@ -35,14 +35,14 @@ const Programs = () => {
                     <p>The Pre-Kindergarten curriculum prepares a child for kindergarten and is structured to be fun, yet challenging. The program involves active learning and is devised to address the needs of the whole child. Activities and materials engage the students in social, physical, emotional and intellectual development.</p>
                 </div>
                 
-                <img src={atHome} className='col-12 col-lg-8' alt='Three students of various ages working on school work at kitchen table.' />
-                <div id='whatIsClassical' style={{ borderTop: '2px solid black', borderBottom: '2px solid black' }} className='info-block'>
+
+                {/* <div id='whatIsClassical' style={{ borderTop: '2px solid black', borderBottom: '2px solid black' }} className='info-block'>
                     <h3 className='text-center pt-4'>Kardia at Home</h3>
                     <p>An additional option for the 2022-2023 school year is our guided at-home learning plan. “Kardia at Home” is a four-day guided homeschool program. There will be video lessons for more complex subjects, weekly lesson plans, a curriculum list for easy purchasing, and a monthly online or over-the-phone parent-teacher check-in.</p>
-                </div>
+                </div> */}
                
                 <img src={tuesday} className='col-12 col-lg-8' alt='Two girls creating christmas craft with pipe cleaners and beads.' />
-                <div id='whatIsClassical' style={{ borderTop: '2px solid black'}} className='info-block'>
+                <div id='whatIsClassical' style={{ borderTop: '2px solid black', borderBottom: '2px solid black',}} className='info-block'>
                     <h3 className='text-center pt-4'>"Tuesday Camp" - Enrichment Half Day</h3>
                     <p>This class will be held on Tuesdays 10:00AM - 2:00PM . This session will have a different overall theme each quarter and will include all kinds of STEAM activities. STEAM is science, technology, engineering, art, and music.</p>
                     <p>
@@ -53,6 +53,7 @@ const Programs = () => {
                         We will also have a “drop-in” option for a slightly higher daily fee. See the tuition and fees tab for more information.
                     </p>
                 </div>
+                <img src={atHome} className='col-12 col-lg-8' alt='Three students of various ages working on school work at kitchen table.' />
                 <div id='whatIsClassical' style={{ borderTop: '2px solid black', borderBottom: '2px solid black', textAlign: 'center' }} className='info-block'>
                     <h3 className='text-center pt-4'><em>A La Carte</em> Options</h3>
                     <img src={alacarte} className='col-12 col-lg-8' style={{ marginTop: '2rem', marginBottom: '2rem' }} alt='Chart showing a la carte options for Kardia programs' />
