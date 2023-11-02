@@ -44,15 +44,16 @@ const Programs = () => {
                 <img src={tuesday} className='col-12 col-lg-8' alt='Two girls creating christmas craft with pipe cleaners and beads.' />
                 <div id='whatIsClassical' style={{ borderTop: '2px solid black'}} className='info-block'>
                     <h3 className='text-center pt-4'>"Tuesday Camp" - Enrichment Half Day</h3>
-                    <p>This class will be held on Tuesdays and there are two session options, morning or afternoon. The morning session will be focused on Kindergarten through third-grade phonics and math. This is a great opportunity for extra instruction in these crucial topics. Our afternoon session will have a different overall theme each quarter and will include all kinds of STEAM activities. STEAM is science, technology, engineering, art, and music. You can sign up for one or both time slots if your child is in K-3rd (AM or PM), or just the PM slot if they are older.</p>
+                    <p>This class will be held on Tuesdays 10:00AM - 2:00PM . This session will have a different overall theme each quarter and will include all kinds of STEAM activities. STEAM is science, technology, engineering, art, and music.</p>
                     <p>
                         You can sign up for all four quarters ahead of time if you want to save space for your child(ren). There are eight weeks in each quarter. This option can be chosen in conjunction with another program option. Uniforms are not required on Tuesday Camp days.
                     </p>
+                    <p><strong>Price per session: $35</strong></p>
                     <p>
                         We will also have a “drop-in” option for a slightly higher daily fee. See the tuition and fees tab for more information.
                     </p>
                 </div>
-                <div id='whatIsClassical' style={{ borderTop: '2px solid black', borderBottom: '2px solid black' }} className='info-block'>
+                <div id='whatIsClassical' style={{ borderTop: '2px solid black', borderBottom: '2px solid black', textAlign: 'center' }} className='info-block'>
                     <h3 className='text-center pt-4'><em>A La Carte</em> Options</h3>
                     <img src={alacarte} className='col-12 col-lg-8' style={{ marginTop: '2rem', marginBottom: '2rem' }} alt='Chart showing a la carte options for Kardia programs' />
                     <p>Kardia Classical School is starting to offer individual classes for math, phonics and grammar. Each class will come with a set of daily or weekly videos, as well as instructions on how the class will operate. Parents will be in charge of purchasing some materials for each class. Please see individual class descriptions below.</p>
