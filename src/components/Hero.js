@@ -9,27 +9,27 @@ const Hero = ({ img, alt, title, strength }) => {
         opacity: toggle ? 1 : 0,
         transform: toggle ? 'scale(1,1)' : 'scale(0.7,0.7)',
         config: { duration: 400 }
-      });
+    });
 
-      useEffect(() => {
+    useEffect(() => {
         setToggle(true);
-      }, [])
+    }, [])
 
     return (
 
-            <Parallax
-                bgImage={img}
-                strength={strength}
-                bgImageAlt={alt}
-            >
-        <animated.div style={animatedStyle}>                
+        <Parallax
+            bgImage={img}
+            strength={strength}
+            bgImageAlt={alt}
+        >
+            <animated.div style={animatedStyle}>
                 <div className='hero'>
                     <div className='hero-text'>
-                        {title}         
+                        {title}
                     </div>
                 </div>
-        </animated.div>                
-            </Parallax>            
+            </animated.div>
+        </Parallax>
 
 
     )
