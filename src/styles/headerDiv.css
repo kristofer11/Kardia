@@ -2,14 +2,12 @@
     margin-inline: 3rem;
     display: flex;
     justify-content: center;
-    padding-block: 1rem;
 }
 
 .navbar {
     background-color: var(--main-bg-color);
     width: 1222px;
     max-width: 100%;
-    /* backdrop-filter: blur(5px); */
 }
 
 .container-fluid {
@@ -23,14 +21,6 @@
     flex-grow: 0 !important;
 }
 
-/* .smallNavbarBrand {
-    display: none;
-} */
-
-.nav-item a {
-    font-size: 1.11rem;
-}
-
 .blog-menu {
     right: 0
 }
@@ -38,11 +28,6 @@
 ul.nav {
     list-style-type: none;
 }
-
-/* remove triangle from dropdown navigation items */
-/* .nav-item .dropdown-toggle::after {
-    display: none;
-} */
 
 .nav-item a {
     color: var(--nav-link-color);
@@ -72,14 +57,8 @@ a.navlink-blog {
 }
 
 .navbarBrandDiv {
-    /* width: fit-content; */
     background-color: var(--main-bg-color);
 }
-
-/* .navbarBrandDiv {
-    width: 100%;
-    background-color: var(--main-bg-color);
-} */
 
 .navbarBrandText {
     margin-top: 33px;
@@ -110,7 +89,8 @@ a.navlink-blog {
     font-size: 1.75rem;
     display: flex;
     flex-direction: column;
-    margin-top: 1.4rem;
+    /* justify-content: center; */
+    /* margin-top: 1.4rem; */
 }
 
 .smallNavbarBrandText h1 {
@@ -118,6 +98,7 @@ a.navlink-blog {
     font-weight: bold;
     font-size: 1.35rem;
     font-family: 'Cinzel', serif;
+    margin-bottom: 0;
 }
 
 .smallNavbarBrandLogo {
@@ -129,6 +110,7 @@ a.navlink-blog {
 .nav li a {
     transition: 300ms;
     border-radius: 5px;
+    padding: 0 0.75rem;
 }
 
 .nav li a:hover {
