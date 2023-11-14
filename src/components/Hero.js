@@ -30,10 +30,7 @@ const Hero = ({ img, alt, title, strength }) => {
                 </div>
             </animated.div>
         </Parallax>
-
-
     )
-
 }
 
 export default Hero;

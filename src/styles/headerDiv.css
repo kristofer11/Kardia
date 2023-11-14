@@ -1,20 +1,142 @@
-.header-div{
+.header-div {
     margin-inline: 3rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-block: 1rem;
 }
 
-.smallNavbarBrand {
-    display: none;
+.navbar {
+    background-color: var(--main-bg-color);
+    width: 1222px;
+    max-width: 100%;
+    /* backdrop-filter: blur(5px); */
 }
 
-.nav-item a {
-        font-size: 1.7rem;
-    } 
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+}
 
-.blog-menu{
+.navbar-collapse {
+    display: block;
+    margin-left: auto;
+    flex-grow: 0 !important;
+}
+
+/* .smallNavbarBrand {
+    display: none;
+} */
+
+.nav-item a {
+    font-size: 1.11rem;
+}
+
+.blog-menu {
     right: 0
+}
+
+ul.nav {
+    list-style-type: none;
+}
+
+/* remove triangle from dropdown navigation items */
+/* .nav-item .dropdown-toggle::after {
+    display: none;
+} */
+
+.nav-item a {
+    color: var(--nav-link-color);
+    backdrop-filter: blur(1px);
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+
+.navbar img {
+    backdrop-filter: blur(1px);
+}
+
+.navbar-collapse {
+    justify-content: flex-start;
+}
+
+a.navlink-blog {
+    font-size: 1rem;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    background-color: var(--main-bg-color);
+    width: fit-content;
+    padding-right: 5px;
+}
+
+.navbarBrandDiv {
+    /* width: fit-content; */
+    background-color: var(--main-bg-color);
+}
+
+/* .navbarBrandDiv {
+    width: 100%;
+    background-color: var(--main-bg-color);
+} */
+
+.navbarBrandText {
+    margin-top: 33px;
+}
+
+.navbarBrandText,
+.navbarBrandText>h1 {
+    color: var(--main-text-color);
+    font-family: var(--main-font-sans);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.smallNavbarBrand {
+    text-decoration: none;
+    font-family: 'Martel', serif;
+    font-weight: bold;
+    color: var(--main-text-color);
+    display: flex;
+    align-items: center;
+}
+
+.smallNavbarBrand:hover {
+    color: var(--main-text-color);
+}
+
+.smallNavbarBrandText {
+    font-size: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.4rem;
+}
+
+.smallNavbarBrandText h1 {
+    font-family: var(--main-font-sans);
+    font-weight: bold;
+    font-size: 1.35rem;
+    font-family: 'Cinzel', serif;
+}
+
+.smallNavbarBrandLogo {
+    aspect-ratio: 1/1 !important;
+    width: 77px;
+    height: fit-content;
+}
+
+.nav li a {
+    transition: 300ms;
+    border-radius: 5px;
+}
+
+.nav li a:hover {
+    /* transform: scale(1.04); */
+    color: var(--nav-link-hover-color);
+    cursor: pointer;
+    /* background: var(--link-hover-bg-color); */
+    border-radius: 11px;
 }
 
 @media screen and (max-width: 768px) {
@@ -23,14 +145,14 @@
     }
 }
 
-@media only screen and (max-width: 1577px){
-    .nav-item a {
+@media only screen and (max-width: 1577px) {
+    /* .nav-item a {
         font-size: 1.4rem;
-    } 
+    }  */
 }
 
 @media only screen and (max-width: 1350px) {
-    .header-div{
+    .header-div {
         display: flex;
         flex-direction: column;
         margin-left: 0;
@@ -40,16 +162,16 @@
     .navbar .container-fluid {
         width: 100%;
     }
-    .nav-item a {
-        font-size: 1.24rem;
-    } 
 
     .smallNavbarBrand {
         display: flex;
     }
-    .smallNavbarBrandLogo, .smallNavbarBrandText {
+
+    .smallNavbarBrandLogo,
+    .smallNavbarBrandText {
         display: block;
     }
+
     .navbarBrandDiv {
         display: none;
     }
@@ -61,23 +183,24 @@
         font-size: 1rem;
     }
 
-    .blog-menu{
+    .blog-menu {
         right: unset
     }
 
     .navbar {
         width: 100%;
     }
-    .header-div{
+
+    .header-div {
         display: flex;
         /* margin-left: 0;
         margin-right: 0; */
         justify-content: start;
     }
 
-    .nav-item a {
+    /* .nav-item a {
         font-size: 1.4rem;
-    } 
+    }  */
 }
 
 /* @media only screen and (max-width: 1350px) {
@@ -87,16 +210,8 @@
     }
 } */
 
-@media only screen and (max-width: 1555px){
-    .header-div{
+@media only screen and (max-width: 1555px) {
+    .header-div {
         margin-right: 0;
     }
 }
-/* 
-
-.smallNavbarBrand
-
-.navbarBrandDiv */
-
-
-

@@ -23,7 +23,7 @@ function Header() {
 
     return (
         <div className='header-div'>
-            <div className='navbarBrandDiv'>
+            {/* <div className='navbarBrandDiv'>
                 <NavbarBrand className='navbarBrand' href='/'>
                     <img src={Logo} width='144' className='float-start' />
                     <div className='navbarBrandText'>
@@ -31,7 +31,7 @@ function Header() {
                         <h1>School</h1>
                     </div>
                 </NavbarBrand>
-            </div>
+            </div> */}
 
             <Navbar light sticky='top' expand='lg'>
                 <a href='/' className='smallNavbarBrand'>
