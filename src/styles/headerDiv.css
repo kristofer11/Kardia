@@ -110,7 +110,7 @@ a.navlink-blog {
 .nav li a {
     transition: 300ms;
     border-radius: 5px;
-    padding: 0 0.75rem;
+    padding: 0.5rem;
 }
 
 .nav li a:hover {
