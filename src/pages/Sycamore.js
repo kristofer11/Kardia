@@ -1,4 +1,4 @@
-import sycamore from '../assets/sycamore.jpg'
+import sycamore from '../assets/typing.jpeg'
 
 const Sycamore = () => {
   return (

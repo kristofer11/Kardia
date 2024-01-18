@@ -1,4 +1,4 @@
-import jogathon from '../assets/jogathon.jpeg'
+import jogathon from '../assets/jogathon2023.jpg'
 import '../styles/jogathon.css';
 
 const Fundraising = () => {

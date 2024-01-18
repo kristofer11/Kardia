@@ -10,7 +10,7 @@ import Hero from '../components/Hero';
 import forest from '../assets/posters/home-img-cropped.png';
 import Typing from '../assets/typing.jpeg';
 import Classroom from '../assets/classroom.jpeg';
-import Bubbles from '../assets/bubbles.jpeg';
+import Bubbles from '../assets/bubbles.jpg';
 import Hammock from '../assets/hammock.jpeg';
 
 

@@ -143,6 +143,16 @@ function Header() {
                                         </NavLink>
                                     </NavItem>
                                 </DropdownItem>
+
+                                <DropdownItem>
+                                    <NavItem>
+                                        <NavLink href='/auction'>
+                                            Auction
+                                        </NavLink>
+                                    </NavItem>
+                                </DropdownItem>
+
+
                                 <DropdownItem>
                                     <NavItem>
                                         <NavLink href='/jogathon'>
